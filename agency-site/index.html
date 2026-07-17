@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="../shared/gate.js" defer></script>
   <script src="../shared/motion.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Aller au contenu</a>
@@ -85,23 +86,23 @@
         </article>
 
         <article class="myth-card" data-reveal data-parallax>
-          <div class="myth-image met-print">
-            <img src="assets/v2/met-youth-252350.jpg" width="444" height="625" loading="lazy" alt="Statue en marbre d'un jeune homme adulte, vue en pied, collection du Metropolitan Museum of Art">
+          <div class="myth-image generated-print">
+            <img src="assets/v2/aegean-apollo.webp" width="1254" height="1254" loading="lazy" alt="Figure adulte drapée en estampe ultramarine, traversée d’une carte égéenne et de constellations">
           </div>
-          <div class="myth-copy"><span>02 · Apollon</span><h3>Clarifier.</h3><p>Hiérarchie, lumière et rythme rendent l'essentiel évident.</p><a href="https://www.metmuseum.org/art/collection/search/252350" rel="noopener noreferrer">Met Open Access · CC0 ↗</a></div>
+          <div class="myth-copy"><span>02 · Apollon</span><h3>Clarifier.</h3><p>Hiérarchie, lumière et rythme rendent l'essentiel évident.</p><a href="assets/v2/SOURCES.json">Génération originale · manifeste ↗</a></div>
         </article>
 
         <article class="myth-card myth-card-dark" data-reveal data-parallax>
-          <div class="myth-image met-print">
-            <img src="assets/v2/met-aphrodite-254697.jpg" width="468" height="624" loading="lazy" alt="Statue adulte en marbre d'Aphrodite, nu sculptural muséal, collection du Metropolitan Museum of Art">
+          <div class="myth-image generated-print">
+            <img src="assets/v2/aegean-aphrodite.webp" width="1254" height="1254" loading="lazy" alt="Figure adulte entièrement drapée en estampe ultramarine, attirant le regard par des orbites et un tracé labyrinthique">
           </div>
-          <div class="myth-copy"><span>03 · Aphrodite</span><h3>Attirer.</h3><p>Le désir visuel devient confiance, jamais manipulation.</p><a href="https://www.metmuseum.org/art/collection/search/254697" rel="noopener noreferrer">Met Open Access · CC0 ↗</a></div>
+          <div class="myth-copy"><span>03 · Aphrodite</span><h3>Attirer.</h3><p>Le désir visuel devient confiance, jamais manipulation.</p><a href="assets/v2/SOURCES.json">Génération originale · manifeste ↗</a></div>
         </article>
 
         <article class="myth-card myth-card-wide myth-card-last" data-reveal data-parallax>
-          <div class="myth-image met-duo">
-            <img src="assets/v2/met-zeus-252511.jpg" width="468" height="624" loading="lazy" alt="Tête en marbre d'un dieu probablement Zeus, collection du Metropolitan Museum of Art">
-            <img src="assets/v2/met-aphrodite-crouching-248138.jpg" width="399" height="625" loading="lazy" alt="Statue adulte en marbre d'Aphrodite accroupie, nu sculptural muséal, collection du Metropolitan Museum of Art">
+          <div class="myth-image generated-duo">
+            <img src="assets/v2/aegean-zeus.webp" width="1254" height="1254" loading="lazy" alt="Figure adulte drapée monumentale, ancrée dans la moitié gauche d’un diptyque ultramarin">
+            <img src="assets/v2/aegean-matter.webp" width="1254" height="1254" loading="lazy" alt="Relief abstrait de plans minéraux, formant la moitié droite d’un diptyque ultramarin">
           </div>
           <div class="myth-copy"><span>04 · Zeus &amp; la matière</span><h3>Tenir.</h3><p>Un système cohérent survit aux modes et aux écrans.</p><a href="assets/v2/SOURCES.json">Voir toute la provenance ↗</a></div>
         </article>
@@ -199,11 +200,19 @@
       <div class="finale-copy" data-reveal>
         <p class="section-tag">Les Moires · le fil des possibles</p>
         <h2 id="finale-title">Nous filons<br><i>le possible.</i></h2>
-        <a class="button button-bone" href="#top">Revenir à la lumière ↑</a>
+        <div class="finale-actions">
+          <a class="button button-bone" href="#top">Revenir à la lumière ↑</a>
+          <button class="moira-toggle" id="moira-toggle" type="button" aria-pressed="true">Suspendre le fil</button>
+        </div>
       </div>
-      <div class="moira" aria-hidden="true">
+      <div class="moira" id="moira-stage" aria-hidden="true">
         <img src="assets/v2/aegean-moira.webp" width="864" height="1821" loading="lazy" alt="">
-        <span class="moira-ring ring-one"></span><span class="moira-ring ring-two"></span>
+        <span class="moira-aster-wrap">
+          <span class="moira-orbit moira-orbit-one"></span>
+          <span class="moira-orbit moira-orbit-two"></span>
+          <span class="moira-orbit-dot"></span>
+          <span class="moira-aster"><span></span><i></i><b></b></span>
+        </span>
       </div>
       <div class="finale-ghost" aria-hidden="true">LUMINA</div>
       <footer>

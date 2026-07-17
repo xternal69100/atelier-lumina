@@ -9,7 +9,7 @@
 .lumina-gate-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .lumina-gate-input{min-width:0;flex:1 1 12rem;padding:.95rem 1rem;border:1px solid #4c4945;border-radius:999px;background:#1b1b1b;color:#fff;font:inherit;letter-spacing:.16em}
 .lumina-gate-input:focus-visible{outline:3px solid #d7f28a;outline-offset:3px}
-.lumina-gate-submit{padding:.95rem 1.25rem;border:0;border-radius:999px;background:#d7f28a;color:#111214;font:800 .82rem/1 system-ui;cursor:pointer}
+.lumina-gate-submit{min-height:44px;padding:.95rem 1.25rem;border:0;border-radius:999px;background:#d7f28a;color:#111214;font:800 .82rem/1 system-ui;cursor:pointer}
 .lumina-gate-submit:hover{filter:brightness(1.05)}
 .lumina-gate-error{min-height:1.4em;margin:.75rem 0 0;color:#ff9adf;font-weight:700;font-size:.86rem}
 .lumina-gate-noscript{margin:1rem 0 0;padding:.8rem;border:1px solid #ff9adf;color:#ffd0ef;font-weight:700;font-size:.82rem}

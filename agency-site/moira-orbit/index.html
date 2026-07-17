@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Étude de mouvement Atelier Lumina : une Moira immobile tient un astre gravé qui tourne sur lui-même.">
+  <meta name="theme-color" content="#1117e8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'none'; font-src 'self'; media-src 'self'; worker-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
+  <title>Étude de mouvement — L’astre de Moira</title>
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#study">Aller au contenu</a>
+  <main class="study" id="study">
+    <header class="topbar">
+      <div class="brand"><span class="sigil" aria-hidden="true">Λ</span><span>Atelier<br>Lumina</span></div>
+      <div class="study-tag">Étude de mouvement · prototype isolé</div>
+    </header>
+
+    <section class="copy" aria-labelledby="title">
+      <p class="kicker">Démonstration — astre vivant</p>
+      <h1 id="title">La matière <i>respire.</i></h1>
+      <p class="lede">Une seule partie de l’image s’anime&nbsp;: l’astre tourne lentement sur lui-même, pendant que les anneaux maintiennent une tension orbitale discrète. La figure reste immobile.</p>
+      <div class="controls" aria-label="Réglages de la démonstration">
+        <button class="control" id="toggle" type="button" aria-pressed="true">Pause</button>
+        <button class="control speed" type="button" data-speed="10s" aria-pressed="false">Lent</button>
+        <button class="control speed" type="button" data-speed="6s" aria-pressed="true">Juste</button>
+        <button class="control speed" type="button" data-speed="3.2s" aria-pressed="false">Vif</button>
+      </div>
+      <p class="note">Aucun asset Hermès copié · principe abstrait réinterprété</p>
+    </section>
+
+    <figure class="figure-stage" aria-label="Moira tenant un astre animé">
+      <img src="../assets/v2/aegean-moira.webp" alt="Figure mythologique originale tenant un astre au-dessus de sa main">
+      <span class="aster-wrap" aria-hidden="true">
+        <span class="orbit one"></span>
+        <span class="orbit two"></span>
+        <span class="orbit-dot"></span>
+        <span class="aster">
+          <span class="aster__surface"></span>
+          <span class="aster__meridian"></span>
+          <span class="aster__latitude"></span>
+          <span class="aster__shine"></span>
+        </span>
+      </span>
+    </figure>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
