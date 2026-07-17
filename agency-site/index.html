@@ -18,8 +18,11 @@
   <script src="../shared/gate.js" defer></script>
   <script src="../shared/motion.js" defer></script>
   <script src="app.js" defer></script>
+  <script src="psyche.js" defer></script>
 </head>
 <body>
+  <canvas class="psyche-field" id="psyche-field" aria-hidden="true"></canvas>
+  <button class="motion-master" id="motion-master" type="button" aria-pressed="true">Suspendre le signal</button>
   <a class="skip-link" href="#main">Aller au contenu</a>
   <div class="page-frame" aria-hidden="true"></div>
 
@@ -112,8 +115,17 @@
     <section class="brain" id="cerveau">
       <div class="brain-word" aria-hidden="true">MNÉMOSYNE</div>
       <div class="brain-visual" data-parallax data-reveal>
-        <img src="assets/v2/aegean-oracle.webp" width="1254" height="1254" loading="lazy" alt="Composition d'oracle en estampe bleue, symbole du cerveau de connaissance Lumina">
-        <span class="brain-orbit" aria-hidden="true"></span>
+        <img class="brain-texture" src="assets/v2/aegean-mnemosyne.webp" width="1254" height="1254" loading="lazy" alt="Archive Mnémosyne non figurative : strates liquides, nœuds de mémoire et interférences en estampe ultramarine">
+        <div class="memory-machine" aria-hidden="true">
+          <span class="memory-strata"></span>
+          <span class="memory-ring memory-ring-a"></span>
+          <span class="memory-ring memory-ring-b"></span>
+          <span class="memory-ring memory-ring-c"></span>
+          <span class="memory-lens"><i></i><b></b></span>
+          <span class="memory-node memory-node-a"></span>
+          <span class="memory-node memory-node-b"></span>
+          <span class="memory-node memory-node-c"></span>
+        </div>
       </div>
       <div class="brain-copy" data-reveal>
         <p class="section-tag">Protocole 03 — La mémoire</p>

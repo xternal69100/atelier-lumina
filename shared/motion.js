@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.documentElement.classList.remove('no-js');
   document.documentElement.classList.add('js');
   if (reduced) return;
   const observer = new IntersectionObserver((entries) => {

@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-17T13:11:10.380124Z",
+  "created_at": "2026-07-17T14:48:35.008368Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -19,8 +19,8 @@
     },
     {
       "path": "agency-site/assets/v2/SOURCES.json",
-      "sha256": "6ca673db1b9dfc29b834854b35e2d86252e1ccac3594b40b4f07b0c1c48259f3",
-      "size": 3104
+      "sha256": "9cb5ad3204caa3ec163afafaa02d92cdd4db1e55317b513cd4ff62beec85b832",
+      "size": 3897
     },
     {
       "path": "agency-site/assets/v2/aegean-aphrodite.webp",
@@ -43,6 +43,11 @@
       "size": 474222
     },
     {
+      "path": "agency-site/assets/v2/aegean-mnemosyne.webp",
+      "sha256": "4c3e62aa697867e4f3027bd478522018cbb5af2414dc6fe85841292bde7820a2",
+      "size": 921714
+    },
+    {
       "path": "agency-site/assets/v2/aegean-moira.webp",
       "sha256": "609f416708349d48e8ea17278723cc55a8bf3986560fb1c2c9f40b12672bc06c",
       "size": 303998
@@ -59,8 +64,8 @@
     },
     {
       "path": "agency-site/index.html",
-      "sha256": "44ff4637fbd0d02b2254d6477247310ecf88627ed0cb18d4d13595d8a3708720",
-      "size": 13539
+      "sha256": "f417f7162d5bc15825e4ed3c6bc181a5085677417f6fb79780ed7393084a8449",
+      "size": 14293
     },
     {
       "path": "agency-site/moira-orbit/app.js",
@@ -78,9 +83,14 @@
       "size": 7753
     },
     {
+      "path": "agency-site/psyche.js",
+      "sha256": "d0413efd9841ae08e6b56c3adde61cdec40e09920e9d6508f36b5c21dc948322",
+      "size": 6285
+    },
+    {
       "path": "agency-site/styles.css",
-      "sha256": "dd388bd94e8a6727cb12fa00f1d1e803c45af07a8a12bb88aaf0716396cc84b8",
-      "size": 21574
+      "sha256": "7dd71e0b98320eba26812f1076ca2dc4f671018c21dcd24d08a5f750f628b04d",
+      "size": 27957
     },
     {
       "path": "archive/agency-v1-kinetic-poise/index.html",
@@ -139,12 +149,12 @@
     },
     {
       "path": "shared/motion.js",
-      "sha256": "47ced08d8a397a4ed7b5fcd120dfa4f1239e7619d0f6bb498c5dfcebc9365e26",
-      "size": 1024
+      "sha256": "a9894148f541d053d2d3e5bd42f581cd4ebfd9665a9481ad6cf81c8f0f3d18f5",
+      "size": 1078
     }
   ],
-  "run_id": "moira-release-20260717-125138-publisherfix-6b4202b",
+  "run_id": "agency-psyche-20260717-140153",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "f743aba4570577d9e34cc51dd8c455ecb7f5b04f6bbd51e99720d40ba8b4d476"
+  "tree_hash": "2048b0b6f87d8ca423e3a3466e9b6e5eb3f5b17717e9e2ccdbc6f3a2b2937cc3"
 }

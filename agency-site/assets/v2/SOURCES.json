@@ -5,36 +5,49 @@
   "optimization": {
     "format": "WebP",
     "encoder": "FFmpeg libwebp",
-    "quality": 88,
-    "dimensions_preserved": true
+    "dimensions_preserved": true,
+    "default_quality": 88,
+    "selected_asset_quality": 91
   },
   "generated_assets": [
     {
       "file": "aegean-hero.webp",
       "origin": "OpenAI built-in image generation",
       "prompt_record": "agency/versions/v2-aegean-signal/02-image-prompts.md",
-      "dimensions": [864, 1821],
+      "dimensions": [
+        864,
+        1821
+      ],
       "sha256": "b5ab8095ac0e9fc94baa6f2aa4a35108453314af68938da44e4346291494d6f5"
     },
     {
       "file": "aegean-oracle.webp",
       "origin": "OpenAI built-in image generation",
       "prompt_record": "agency/versions/v2-aegean-signal/02-image-prompts.md",
-      "dimensions": [1254, 1254],
+      "dimensions": [
+        1254,
+        1254
+      ],
       "sha256": "6ca4cc6b598068007dfa21dd7c8f3ca9aa1157d4c3d5f021bb818845d5428ef8"
     },
     {
       "file": "aegean-moira.webp",
       "origin": "OpenAI built-in image generation",
       "prompt_record": "agency/versions/v2-aegean-signal/02-image-prompts.md",
-      "dimensions": [864, 1821],
+      "dimensions": [
+        864,
+        1821
+      ],
       "sha256": "609f416708349d48e8ea17278723cc55a8bf3986560fb1c2c9f40b12672bc06c"
     },
     {
       "file": "aegean-apollo.webp",
       "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
       "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [1254, 1254],
+      "dimensions": [
+        1254,
+        1254
+      ],
       "source_png_sha256": "cdafd87f552282e7876e7b2d26d540afdae6b987cb690c8b34365f0f9dae3ecb",
       "sha256": "cb38e52f49fd1a2e7b9a1d1ea290e079fb99f8908c85ab21a044b400e58b499c"
     },
@@ -42,7 +55,10 @@
       "file": "aegean-aphrodite.webp",
       "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
       "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [1254, 1254],
+      "dimensions": [
+        1254,
+        1254
+      ],
       "source_png_sha256": "e90198e55ed8933781f6b8b5fe0508bf31d8dea7fce7ae1d4e1f7e350b903981",
       "sha256": "40773d34e029f7f98368e796fbce31219f6754447eee194f89807d5f422268fc"
     },
@@ -50,7 +66,10 @@
       "file": "aegean-zeus.webp",
       "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
       "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [1254, 1254],
+      "dimensions": [
+        1254,
+        1254
+      ],
       "source_png_sha256": "a049b6391ae017c023409233d2588a3d8b18d7def4ceea6f65086eaf46fd29d8",
       "sha256": "940a627dd970178e89a7e64c055827a0bffbea1576508f1818ea4f1bad4e843f"
     },
@@ -58,9 +77,25 @@
       "file": "aegean-matter.webp",
       "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
       "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [1254, 1254],
+      "dimensions": [
+        1254,
+        1254
+      ],
       "source_png_sha256": "273159a49cee541009b3509206870895a3174cb44e5edbd574699cf4a2e40028",
       "sha256": "f95993881a78afb60c24a6f9ca8a5bac82ab14e5af4aaf72d681c4332f8b4958"
+    },
+    {
+      "file": "aegean-mnemosyne.webp",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-psyche-20260717-140153/image-prompts.json",
+      "selection_record": "agency/runs/agency-psyche-20260717-140153/image-selection.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "quality": 91,
+      "source_png_sha256": "18de0684f9748f8479d6b40540363d06b11df457c9e0bd0671cb6b4bc4cda649",
+      "sha256": "4c3e62aa697867e4f3027bd478522018cbb5af2414dc6fe85841292bde7820a2"
     }
   ],
   "third_party_public_assets": []
