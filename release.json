@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-07-17T06:32:14.858635Z",
+  "built_at": "2026-07-17T06:40:30.504437Z",
   "manifest": "release-manifest.json",
   "project": "atelier-lumina",
-  "run_id": "release-initial-aegean-v1",
+  "run_id": "review-20260716-svet-fit-release-ready",
   "schema_version": 2,
   "status": "published",
   "surfaces": [
