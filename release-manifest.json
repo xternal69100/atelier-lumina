@@ -1,0 +1,130 @@
+{
+  "algorithm": "sha256",
+  "created_at": "2026-07-17T06:32:14.858635Z",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "README.md",
+      "sha256": "a78eaa55f8971bab4ab1ef83f7fc62a2d82a92bd882e42ad702ceb710f82295b",
+      "size": 402
+    },
+    {
+      "path": "agency-site/assets/v2/SOURCES.json",
+      "sha256": "7cbac6d012085bc9254f8f6bd6a688d804432da2d74106d4f05c7713469b9f98",
+      "size": 3255
+    },
+    {
+      "path": "agency-site/assets/v2/aegean-hero.webp",
+      "sha256": "b5ab8095ac0e9fc94baa6f2aa4a35108453314af68938da44e4346291494d6f5",
+      "size": 333264
+    },
+    {
+      "path": "agency-site/assets/v2/aegean-moira.webp",
+      "sha256": "609f416708349d48e8ea17278723cc55a8bf3986560fb1c2c9f40b12672bc06c",
+      "size": 303998
+    },
+    {
+      "path": "agency-site/assets/v2/aegean-oracle.webp",
+      "sha256": "6ca4cc6b598068007dfa21dd7c8f3ca9aa1157d4c3d5f021bb818845d5428ef8",
+      "size": 529790
+    },
+    {
+      "path": "agency-site/assets/v2/met-aphrodite-254697.jpg",
+      "sha256": "53e6dc5bd2adb8a9997d83d2d5de60941966f863889ca36398913d6ccfd88def",
+      "size": 23537
+    },
+    {
+      "path": "agency-site/assets/v2/met-aphrodite-crouching-248138.jpg",
+      "sha256": "2f970538df5e53ce56a1aac9711ff8a92ff3afdba0b873151c427171343b5dbc",
+      "size": 42224
+    },
+    {
+      "path": "agency-site/assets/v2/met-youth-252350.jpg",
+      "sha256": "90f323a44f5c379e03096ef2b4877b5a5c889f1d58297a59482e80653b66edc6",
+      "size": 27606
+    },
+    {
+      "path": "agency-site/assets/v2/met-zeus-252511.jpg",
+      "sha256": "ca72821b9d43757836360990670420307e8bc8b76a29cdfbbfab90a5f5bcafa9",
+      "size": 58413
+    },
+    {
+      "path": "agency-site/index.html",
+      "sha256": "aab9902647038f60d6f76a7945b43ead0189e92e77a4422b44da9c9bd6330863",
+      "size": 13185
+    },
+    {
+      "path": "agency-site/styles.css",
+      "sha256": "227b04c2eecd2b2c3e1b2345ca79caac1b9a5898207b1c368f1a76567f045ad5",
+      "size": 18765
+    },
+    {
+      "path": "archive/agency-v1-kinetic-poise/index.html",
+      "sha256": "0cc563aad5c9c91b7d7a4053c8b22a2266af1f9c49f2b93fdc259b9053ece734",
+      "size": 8677
+    },
+    {
+      "path": "archive/agency-v1-kinetic-poise/styles.css",
+      "sha256": "5b2fd29de40b1da83660a970268e920c860bb6d21b5e3cf81ed0c98c31c8f699",
+      "size": 11911
+    },
+    {
+      "path": "demos/svet-fit/app.js",
+      "sha256": "40347fa9a6aa9c87c968fbefbee23d3b410b19e708e0e903112477dba4e7a507",
+      "size": 1727
+    },
+    {
+      "path": "demos/svet-fit/index.html",
+      "sha256": "eb2c894f54c5fc3345b8a531bbd4b113d41afeb9cf13f688009d7dd4cb86d688",
+      "size": 12114
+    },
+    {
+      "path": "demos/svet-fit/styles.css",
+      "sha256": "9d363e05b40e1324f19e61f619da4b481bf2a855abc5ff45f0552d4ca3121a7b",
+      "size": 16898
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "76994563dcbd9367de5db1e7156982adb21f04c8287a635a4aede405e5810d9b",
+      "size": 415
+    },
+    {
+      "path": "index.html",
+      "sha256": "7226f422054cf5e062b414457ff254024ad37f5cc376e4e2c17d008456add67e",
+      "size": 1010
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "34bd21fcbd027b1aff9fa92c3549b554c599e2557ca47e759eb845a0d9a1d7c0",
+      "size": 61
+    },
+    {
+      "path": "root.css",
+      "sha256": "0bca27c0469a4fb958e9e0c0f9cec23cd2a35044c4dd2b95c7fc7d0b4ffaea45",
+      "size": 1091
+    },
+    {
+      "path": "shared/gate.css",
+      "sha256": "9b295feeff6242fcfa7d56adf72504e1b0b76e7af4fc2ede65692868099cf8e5",
+      "size": 2413
+    },
+    {
+      "path": "shared/gate.js",
+      "sha256": "347fab1b05fd7eb94ef45ab4e6cad8ab81cc0213921cc5ec6ae2316859925879",
+      "size": 6655
+    },
+    {
+      "path": "shared/motion.js",
+      "sha256": "47ced08d8a397a4ed7b5fcd120dfa4f1239e7619d0f6bb498c5dfcebc9365e26",
+      "size": 1024
+    }
+  ],
+  "run_id": "release-initial-aegean-v1",
+  "schema_version": 1,
+  "tree_algorithm": "lumina-tree-sha256-v1",
+  "tree_hash": "d7a24cea70486bed05ead60d5ad4231eb89d62bf8a2c62f4d85cf680b2134454"
+}

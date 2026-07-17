@@ -1,0 +1,14 @@
+{
+  "built_at": "2026-07-17T06:32:14.858635Z",
+  "manifest": "release-manifest.json",
+  "project": "atelier-lumina",
+  "run_id": "release-initial-aegean-v1",
+  "schema_version": 2,
+  "status": "published",
+  "surfaces": [
+    "agency-site",
+    "demos/svet-fit"
+  ],
+  "tree_algorithm": "lumina-tree-sha256-v1",
+  "tree_hash": "d7a24cea70486bed05ead60d5ad4231eb89d62bf8a2c62f4d85cf680b2134454"
+}

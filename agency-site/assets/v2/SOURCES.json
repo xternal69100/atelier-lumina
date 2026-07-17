@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-07-16",
+  "generated_assets": [
+    {
+      "file": "aegean-hero.webp",
+      "origin": "OpenAI built-in image generation",
+      "prompt_record": "hermes/agency/versions/v2-aegean-signal/02-image-prompts.md",
+      "sha256": "b5ab8095ac0e9fc94baa6f2aa4a35108453314af68938da44e4346291494d6f5"
+    },
+    {
+      "file": "aegean-oracle.webp",
+      "origin": "OpenAI built-in image generation",
+      "prompt_record": "hermes/agency/versions/v2-aegean-signal/02-image-prompts.md",
+      "sha256": "6ca4cc6b598068007dfa21dd7c8f3ca9aa1157d4c3d5f021bb818845d5428ef8"
+    },
+    {
+      "file": "aegean-moira.webp",
+      "origin": "OpenAI built-in image generation",
+      "prompt_record": "hermes/agency/versions/v2-aegean-signal/02-image-prompts.md",
+      "sha256": "609f416708349d48e8ea17278723cc55a8bf3986560fb1c2c9f40b12672bc06c"
+    }
+  ],
+  "open_access_assets": [
+    {
+      "file": "met-youth-252350.jpg",
+      "institution": "The Metropolitan Museum of Art",
+      "object_id": 252350,
+      "title": "Marble statue of a youth",
+      "culture": "Greek or Roman",
+      "date": "1st century BCE",
+      "object_url": "https://www.metmuseum.org/art/collection/search/252350",
+      "asset_url": "https://images.metmuseum.org/CRDImages/gr/web-large/DP271502.jpg",
+      "rights": "CC0 / Open Access; isPublicDomain=true in the Met Collection API",
+      "sha256": "90f323a44f5c379e03096ef2b4877b5a5c889f1d58297a59482e80653b66edc6"
+    },
+    {
+      "file": "met-aphrodite-254697.jpg",
+      "institution": "The Metropolitan Museum of Art",
+      "object_id": 254697,
+      "title": "Marble statue of Aphrodite",
+      "culture": "Roman",
+      "date": "1st or 2nd century CE",
+      "object_url": "https://www.metmuseum.org/art/collection/search/254697",
+      "asset_url": "https://images.metmuseum.org/CRDImages/gr/web-large/DP138723.jpg",
+      "rights": "CC0 / Open Access; isPublicDomain=true in the Met Collection API",
+      "sha256": "53e6dc5bd2adb8a9997d83d2d5de60941966f863889ca36398913d6ccfd88def"
+    },
+    {
+      "file": "met-aphrodite-crouching-248138.jpg",
+      "institution": "The Metropolitan Museum of Art",
+      "object_id": 248138,
+      "title": "Marble statue of a crouching Aphrodite",
+      "culture": "Roman",
+      "date": "1st or 2nd century CE",
+      "object_url": "https://www.metmuseum.org/art/collection/search/248138",
+      "asset_url": "https://images.metmuseum.org/CRDImages/gr/web-large/7188.jpg",
+      "rights": "CC0 / Open Access; isPublicDomain=true in the Met Collection API",
+      "sha256": "2f970538df5e53ce56a1aac9711ff8a92ff3afdba0b873151c427171343b5dbc"
+    },
+    {
+      "file": "met-zeus-252511.jpg",
+      "institution": "The Metropolitan Museum of Art",
+      "object_id": 252511,
+      "title": "Marble head of a god, probably Zeus",
+      "culture": "Greek",
+      "date": "3rd or 2nd century BCE",
+      "object_url": "https://www.metmuseum.org/art/collection/search/252511",
+      "asset_url": "https://images.metmuseum.org/CRDImages/gr/web-large/92345.jpg",
+      "rights": "CC0 / Open Access; isPublicDomain=true in the Met Collection API",
+      "sha256": "ca72821b9d43757836360990670420307e8bc8b76a29cdfbbfab90a5f5bcafa9"
+    }
+  ]
+}

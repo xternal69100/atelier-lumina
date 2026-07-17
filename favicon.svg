@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Atelier Lumina">
+  <rect width="64" height="64" rx="16" fill="#111214"/>
+  <circle cx="32" cy="32" r="18" fill="none" stroke="#f3eee5" stroke-width="3"/>
+  <path d="M18 37c9-18 20-22 28-10-8 2-14 8-16 19" fill="none" stroke="#d84fc7" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="44" cy="18" r="3" fill="#d7f28a"/>
+</svg>
