@@ -18,6 +18,7 @@
   <script src="../shared/gate.js" defer></script>
   <script src="../shared/motion.js" defer></script>
   <script src="app.js?v=source-first-20260717" defer></script>
+  <script src="variants.js?v=three-versions-20260717" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Aller au contenu</a>
@@ -72,66 +73,78 @@
 
     <section class="pantheon" id="pantheon">
       <header class="section-head" data-reveal>
-        <div><p class="section-tag">Protocole 02 — Le panthéon</p><p class="counter">04 figures / 08 études</p></div>
+        <div><p class="section-tag">Protocole 02 — Le panthéon</p><p class="counter">04 figures / 12 études</p></div>
         <h2>Le mythe devient<br><i>une capacité.</i></h2>
-        <p>Deux visions par figure, quatre mécanismes distincts. Ouvrez une image pour l’observer en grand.</p>
+        <p>Retrouvez la première image puis comparez les deux nouvelles. Une seule version s’affiche à la fois, sans rien supprimer.</p>
       </header>
 
       <div class="myth-grid">
         <article class="myth-card myth-card-wide" data-reveal>
-          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles d’Athéna">
-            <a class="myth-variant" href="assets/v3/hyperpsyche-athena-a.webp" aria-label="Ouvrir en grand Athéna A, pluie matricielle">
-              <img src="assets/v3/hyperpsyche-athena-a.webp" width="1080" height="1080" loading="lazy" alt="Deux profils d’Athéna traversés par une cascade verticale de glyphes et de chiffres colorés">
-              <span class="myth-variant-label">A · Pluie matricielle</span>
+          <div class="myth-image myth-switcher" data-version-switcher data-god="Athéna">
+            <div class="version-controls" role="group" aria-label="Choisir une version d’Athéna">
+              <button class="version-button" type="button" aria-pressed="true" aria-controls="athena-stage" data-version-button data-src="assets/v2/aegean-oracle.webp" data-width="1254" data-height="1254" data-label="Première · Oracle cartographique" data-alt="Athéna de profil dans un collage cobalt de cartes, constellations, montagnes et lignes géométriques">Première</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="athena-stage" data-version-button data-src="assets/v3/hyperpsyche-athena-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Pluie matricielle" data-alt="Deux profils d’Athéna traversés par une cascade verticale de glyphes et de chiffres colorés">Nouvelle A</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="athena-stage" data-version-button data-src="assets/v3/hyperpsyche-athena-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Oracle chiffré" data-alt="Athéna monumentale enchâssée dans une architecture de signes, nombres et draperies électriques">Nouvelle B</button>
+            </div>
+            <a class="myth-version-stage" id="athena-stage" data-version-stage href="assets/v2/aegean-oracle.webp" aria-label="Ouvrir en grand Athéna, première version">
+              <img data-version-image src="assets/v2/aegean-oracle.webp" width="1254" height="1254" loading="lazy" alt="Athéna de profil dans un collage cobalt de cartes, constellations, montagnes et lignes géométriques">
+              <span class="myth-variant-label" data-version-label>Première · Oracle cartographique</span>
             </a>
-            <a class="myth-variant" href="assets/v3/hyperpsyche-athena-b.webp" aria-label="Ouvrir en grand Athéna B, oracle chiffré">
-              <img src="assets/v3/hyperpsyche-athena-b.webp" width="1080" height="1080" loading="lazy" alt="Athéna monumentale enchâssée dans une architecture de signes, nombres et draperies électriques">
-              <span class="myth-variant-label">B · Oracle chiffré</span>
-            </a>
+            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
+            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v2/aegean-oracle.webp">première</a> · <a href="assets/v3/hyperpsyche-athena-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-athena-b.webp">nouvelle B</a>.</p></noscript>
           </div>
-          <div class="myth-copy"><span>01 · Athéna</span><h3>Discerner.</h3><p>La stratégie transforme le bruit en décision créative.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
+          <div class="myth-copy"><span>01 · Athéna</span><h3>Discerner.</h3><p>La stratégie transforme le bruit en décision créative.</p><div class="source-links"><a href="assets/v2/SOURCES.json">Première · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>
 
         <article class="myth-card myth-card-wide" data-reveal>
-          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles d’Apollon">
-            <a class="myth-variant" href="assets/v3/hyperpsyche-apollo-a.webp" aria-label="Ouvrir en grand Apollon A, procession temporelle">
-              <img src="assets/v3/hyperpsyche-apollo-a.webp" width="1080" height="1080" loading="lazy" alt="Plusieurs silhouettes d’Apollon avancent dans des lames temporelles aux expositions chromatiques désynchronisées">
-              <span class="myth-variant-label">A · Procession temporelle</span>
+          <div class="myth-image myth-switcher" data-version-switcher data-god="Apollon">
+            <div class="version-controls" role="group" aria-label="Choisir une version d’Apollon">
+              <button class="version-button" type="button" aria-pressed="true" aria-controls="apollo-stage" data-version-button data-src="assets/v2/aegean-apollo.webp" data-width="1254" data-height="1254" data-label="Première · Soleil fracturé" data-alt="Apollon drapé traverse un paysage marin fragmenté sous un disque solaire découpé en bandes">Première</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="apollo-stage" data-version-button data-src="assets/v3/hyperpsyche-apollo-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Procession temporelle" data-alt="Plusieurs silhouettes d’Apollon avancent dans des lames temporelles aux expositions chromatiques désynchronisées">Nouvelle A</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="apollo-stage" data-version-button data-src="assets/v3/hyperpsyche-apollo-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Tranches solaires" data-alt="Apollon et sa lyre sont découpés en tranches solaires diagonales magenta, bleues et acides">Nouvelle B</button>
+            </div>
+            <a class="myth-version-stage" id="apollo-stage" data-version-stage href="assets/v2/aegean-apollo.webp" aria-label="Ouvrir en grand Apollon, première version">
+              <img data-version-image src="assets/v2/aegean-apollo.webp" width="1254" height="1254" loading="lazy" alt="Apollon drapé traverse un paysage marin fragmenté sous un disque solaire découpé en bandes">
+              <span class="myth-variant-label" data-version-label>Première · Soleil fracturé</span>
             </a>
-            <a class="myth-variant" href="assets/v3/hyperpsyche-apollo-b.webp" aria-label="Ouvrir en grand Apollon B, tranches solaires">
-              <img src="assets/v3/hyperpsyche-apollo-b.webp" width="1080" height="1080" loading="lazy" alt="Apollon et sa lyre sont découpés en tranches solaires diagonales magenta, bleues et acides">
-              <span class="myth-variant-label">B · Tranches solaires</span>
-            </a>
+            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
+            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v2/aegean-apollo.webp">première</a> · <a href="assets/v3/hyperpsyche-apollo-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-apollo-b.webp">nouvelle B</a>.</p></noscript>
           </div>
-          <div class="myth-copy"><span>02 · Apollon</span><h3>Clarifier.</h3><p>Hiérarchie, lumière et rythme rendent l’essentiel évident.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
+          <div class="myth-copy"><span>02 · Apollon</span><h3>Clarifier.</h3><p>Hiérarchie, lumière et rythme rendent l’essentiel évident.</p><div class="source-links"><a href="assets/v2/SOURCES.json">Première · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>
 
         <article class="myth-card myth-card-wide myth-card-dark" data-reveal>
-          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles d’Aphrodite">
-            <a class="myth-variant" href="assets/v3/hyperpsyche-aphrodite-a.webp" aria-label="Ouvrir en grand Aphrodite A, cartographie cousue">
-              <img src="assets/v3/hyperpsyche-aphrodite-a.webp" width="1080" height="1080" loading="lazy" alt="Aphrodite se fond dans une cartographie textile cousue, entre rivage, constellation et matière minérale">
-              <span class="myth-variant-label">A · Cartographie cousue</span>
+          <div class="myth-image myth-switcher" data-version-switcher data-god="Aphrodite">
+            <div class="version-controls" role="group" aria-label="Choisir une version d’Aphrodite">
+              <button class="version-button" type="button" aria-pressed="true" aria-controls="aphrodite-stage" data-version-button data-src="assets/v2/aegean-aphrodite.webp" data-width="1254" data-height="1254" data-label="Première · Archipel magnétique" data-alt="Aphrodite drapée flotte entre archipels, vagues, constellations et coulées magenta traversées de sceaux jaunes">Première</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="aphrodite-stage" data-version-button data-src="assets/v3/hyperpsyche-aphrodite-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Cartographie cousue" data-alt="Aphrodite se fond dans une cartographie textile cousue, entre rivage, constellation et matière minérale">Nouvelle A</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="aphrodite-stage" data-version-button data-src="assets/v3/hyperpsyche-aphrodite-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Draperie-paysage" data-alt="La draperie d’Aphrodite devient un paysage impossible en torsion, traversé de cartes et de constellations">Nouvelle B</button>
+            </div>
+            <a class="myth-version-stage" id="aphrodite-stage" data-version-stage href="assets/v2/aegean-aphrodite.webp" aria-label="Ouvrir en grand Aphrodite, première version">
+              <img data-version-image src="assets/v2/aegean-aphrodite.webp" width="1254" height="1254" loading="lazy" alt="Aphrodite drapée flotte entre archipels, vagues, constellations et coulées magenta traversées de sceaux jaunes">
+              <span class="myth-variant-label" data-version-label>Première · Archipel magnétique</span>
             </a>
-            <a class="myth-variant" href="assets/v3/hyperpsyche-aphrodite-b.webp" aria-label="Ouvrir en grand Aphrodite B, draperie-paysage">
-              <img src="assets/v3/hyperpsyche-aphrodite-b.webp" width="1080" height="1080" loading="lazy" alt="La draperie d’Aphrodite devient un paysage impossible en torsion, traversé de cartes et de constellations">
-              <span class="myth-variant-label">B · Draperie-paysage</span>
-            </a>
+            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
+            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v2/aegean-aphrodite.webp">première</a> · <a href="assets/v3/hyperpsyche-aphrodite-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-aphrodite-b.webp">nouvelle B</a>.</p></noscript>
           </div>
-          <div class="myth-copy"><span>03 · Aphrodite</span><h3>Attirer.</h3><p>Le désir visuel devient confiance, jamais manipulation.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
+          <div class="myth-copy"><span>03 · Aphrodite</span><h3>Attirer.</h3><p>Le désir visuel devient confiance, jamais manipulation.</p><div class="source-links"><a href="assets/v2/SOURCES.json">Première · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>
 
         <article class="myth-card myth-card-wide myth-card-last" data-reveal>
-          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles de Zeus">
-            <a class="myth-variant" href="assets/v3/hyperpsyche-zeus-a.webp" aria-label="Ouvrir en grand Zeus A, citadelle polygravitationnelle">
-              <img src="assets/v3/hyperpsyche-zeus-a.webp" width="1080" height="1080" loading="lazy" alt="Deux figures de Zeus traversent une citadelle disloquée par des éclairs et plusieurs directions de gravité">
-              <span class="myth-variant-label">A · Citadelle polygravitationnelle</span>
+          <div class="myth-image myth-switcher" data-version-switcher data-god="Zeus">
+            <div class="version-controls" role="group" aria-label="Choisir une version de Zeus">
+              <button class="version-button" type="button" aria-pressed="true" aria-controls="zeus-stage" data-version-button data-src="assets/v2/aegean-zeus.webp" data-width="1254" data-height="1254" data-label="Première · Architecture renversée" data-alt="Zeus drapé traverse une architecture classique renversée, des escaliers suspendus et une carte de constellations cobalt">Première</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="zeus-stage" data-version-button data-src="assets/v3/hyperpsyche-zeus-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Citadelle polygravitationnelle" data-alt="Deux figures de Zeus traversent une citadelle disloquée par des éclairs et plusieurs directions de gravité">Nouvelle A</button>
+              <button class="version-button" type="button" aria-pressed="false" aria-controls="zeus-stage" data-version-button data-src="assets/v3/hyperpsyche-zeus-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Foudre architecturale" data-alt="Zeus se dédouble dans une explosion de colonnes, de pierres suspendues et de foudre calligraphique">Nouvelle B</button>
+            </div>
+            <a class="myth-version-stage" id="zeus-stage" data-version-stage href="assets/v2/aegean-zeus.webp" aria-label="Ouvrir en grand Zeus, première version">
+              <img data-version-image src="assets/v2/aegean-zeus.webp" width="1254" height="1254" loading="lazy" alt="Zeus drapé traverse une architecture classique renversée, des escaliers suspendus et une carte de constellations cobalt">
+              <span class="myth-variant-label" data-version-label>Première · Architecture renversée</span>
             </a>
-            <a class="myth-variant" href="assets/v3/hyperpsyche-zeus-b.webp" aria-label="Ouvrir en grand Zeus B, foudre architecturale">
-              <img src="assets/v3/hyperpsyche-zeus-b.webp" width="1080" height="1080" loading="lazy" alt="Zeus se dédouble dans une explosion de colonnes, de pierres suspendues et de foudre calligraphique">
-              <span class="myth-variant-label">B · Foudre architecturale</span>
-            </a>
+            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
+            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v2/aegean-zeus.webp">première</a> · <a href="assets/v3/hyperpsyche-zeus-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-zeus-b.webp">nouvelle B</a>.</p></noscript>
           </div>
-          <div class="myth-copy"><span>04 · Zeus</span><h3>Tenir.</h3><p>Un système cohérent survit aux modes et aux écrans.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
+          <div class="myth-copy"><span>04 · Zeus</span><h3>Tenir.</h3><p>Un système cohérent survit aux modes et aux écrans.</p><div class="source-links"><a href="assets/v2/SOURCES.json">Première · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>
       </div>
     </section>
