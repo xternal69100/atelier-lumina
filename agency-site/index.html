@@ -17,12 +17,9 @@
   <link rel="stylesheet" href="styles.css">
   <script src="../shared/gate.js" defer></script>
   <script src="../shared/motion.js" defer></script>
-  <script src="app.js" defer></script>
-  <script src="psyche.js" defer></script>
+  <script src="app.js?v=source-first-20260717" defer></script>
 </head>
 <body>
-  <canvas class="psyche-field" id="psyche-field" aria-hidden="true"></canvas>
-  <button class="motion-master" id="motion-master" type="button" aria-pressed="true">Suspendre le signal</button>
   <a class="skip-link" href="#main">Aller au contenu</a>
   <div class="page-frame" aria-hidden="true"></div>
 
@@ -40,7 +37,7 @@
   </header>
 
   <main id="main">
-    <section class="hero" id="top" data-parallax>
+    <section class="hero" id="top">
       <div class="hero-copy" data-reveal>
         <p class="eyebrow">Agence web IA artistique · Lausanne</p>
         <h1>Le marbre<br>pense en<br><em>lumière.</em></h1>
@@ -51,8 +48,8 @@
           <a class="line-link" href="#rituel">Voir le rituel <span aria-hidden="true">↓</span></a>
         </div>
       </div>
-      <figure class="hero-figure" aria-label="Collage original de figures mythologiques grecques, carte égéenne, labyrinthe et constellations">
-        <img src="assets/v2/aegean-hero.webp" width="864" height="1821" alt="" fetchpriority="high">
+      <figure class="hero-figure" aria-label="Figure mythique traversée par trois portails cartographiques à des échelles incompatibles, estampe originale">
+        <img src="assets/v2/aegean-hero.webp" width="1024" height="1536" alt="" fetchpriority="high">
       </figure>
       <div class="hero-coordinate" aria-hidden="true"><span>46.5197° N</span><i></i><span>2026 / ∞</span></div>
       <p class="hero-side" aria-hidden="true">Mythes anciens · interfaces futures</p>
@@ -75,57 +72,74 @@
 
     <section class="pantheon" id="pantheon">
       <header class="section-head" data-reveal>
-        <div><p class="section-tag">Protocole 02 — Le panthéon</p><p class="counter">04 figures / 04 fonctions</p></div>
+        <div><p class="section-tag">Protocole 02 — Le panthéon</p><p class="counter">04 figures / 08 études</p></div>
         <h2>Le mythe devient<br><i>une capacité.</i></h2>
-        <p>Pas de temple décoratif. Chaque figure explique une compétence réelle de l'agence.</p>
+        <p>Deux visions par figure, quatre mécanismes distincts. Ouvrez une image pour l’observer en grand.</p>
       </header>
 
       <div class="myth-grid">
-        <article class="myth-card myth-card-wide" data-reveal data-parallax>
-          <div class="myth-image myth-oracle">
-            <img src="assets/v2/aegean-oracle.webp" width="1254" height="1254" loading="lazy" alt="Oracle de marbre en profil, entourée d'un labyrinthe et de constellations, illustration originale">
+        <article class="myth-card myth-card-wide" data-reveal>
+          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles d’Athéna">
+            <a class="myth-variant" href="assets/v3/hyperpsyche-athena-a.webp" aria-label="Ouvrir en grand Athéna A, pluie matricielle">
+              <img src="assets/v3/hyperpsyche-athena-a.webp" width="1080" height="1080" loading="lazy" alt="Deux profils d’Athéna traversés par une cascade verticale de glyphes et de chiffres colorés">
+              <span class="myth-variant-label">A · Pluie matricielle</span>
+            </a>
+            <a class="myth-variant" href="assets/v3/hyperpsyche-athena-b.webp" aria-label="Ouvrir en grand Athéna B, oracle chiffré">
+              <img src="assets/v3/hyperpsyche-athena-b.webp" width="1080" height="1080" loading="lazy" alt="Athéna monumentale enchâssée dans une architecture de signes, nombres et draperies électriques">
+              <span class="myth-variant-label">B · Oracle chiffré</span>
+            </a>
           </div>
-          <div class="myth-copy"><span>01 · Athéna</span><h3>Discerner.</h3><p>La stratégie transforme le bruit en décision créative.</p><small>Œuvre originale générée · manifeste disponible</small></div>
+          <div class="myth-copy"><span>01 · Athéna</span><h3>Discerner.</h3><p>La stratégie transforme le bruit en décision créative.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
         </article>
 
-        <article class="myth-card" data-reveal data-parallax>
-          <div class="myth-image generated-print">
-            <img src="assets/v2/aegean-apollo.webp" width="1254" height="1254" loading="lazy" alt="Figure adulte drapée en estampe ultramarine, traversée d’une carte égéenne et de constellations">
+        <article class="myth-card myth-card-wide" data-reveal>
+          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles d’Apollon">
+            <a class="myth-variant" href="assets/v3/hyperpsyche-apollo-a.webp" aria-label="Ouvrir en grand Apollon A, procession temporelle">
+              <img src="assets/v3/hyperpsyche-apollo-a.webp" width="1080" height="1080" loading="lazy" alt="Plusieurs silhouettes d’Apollon avancent dans des lames temporelles aux expositions chromatiques désynchronisées">
+              <span class="myth-variant-label">A · Procession temporelle</span>
+            </a>
+            <a class="myth-variant" href="assets/v3/hyperpsyche-apollo-b.webp" aria-label="Ouvrir en grand Apollon B, tranches solaires">
+              <img src="assets/v3/hyperpsyche-apollo-b.webp" width="1080" height="1080" loading="lazy" alt="Apollon et sa lyre sont découpés en tranches solaires diagonales magenta, bleues et acides">
+              <span class="myth-variant-label">B · Tranches solaires</span>
+            </a>
           </div>
-          <div class="myth-copy"><span>02 · Apollon</span><h3>Clarifier.</h3><p>Hiérarchie, lumière et rythme rendent l'essentiel évident.</p><a href="assets/v2/SOURCES.json">Génération originale · manifeste ↗</a></div>
+          <div class="myth-copy"><span>02 · Apollon</span><h3>Clarifier.</h3><p>Hiérarchie, lumière et rythme rendent l’essentiel évident.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
         </article>
 
-        <article class="myth-card myth-card-dark" data-reveal data-parallax>
-          <div class="myth-image generated-print">
-            <img src="assets/v2/aegean-aphrodite.webp" width="1254" height="1254" loading="lazy" alt="Figure adulte entièrement drapée en estampe ultramarine, attirant le regard par des orbites et un tracé labyrinthique">
+        <article class="myth-card myth-card-wide myth-card-dark" data-reveal>
+          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles d’Aphrodite">
+            <a class="myth-variant" href="assets/v3/hyperpsyche-aphrodite-a.webp" aria-label="Ouvrir en grand Aphrodite A, cartographie cousue">
+              <img src="assets/v3/hyperpsyche-aphrodite-a.webp" width="1080" height="1080" loading="lazy" alt="Aphrodite se fond dans une cartographie textile cousue, entre rivage, constellation et matière minérale">
+              <span class="myth-variant-label">A · Cartographie cousue</span>
+            </a>
+            <a class="myth-variant" href="assets/v3/hyperpsyche-aphrodite-b.webp" aria-label="Ouvrir en grand Aphrodite B, draperie-paysage">
+              <img src="assets/v3/hyperpsyche-aphrodite-b.webp" width="1080" height="1080" loading="lazy" alt="La draperie d’Aphrodite devient un paysage impossible en torsion, traversé de cartes et de constellations">
+              <span class="myth-variant-label">B · Draperie-paysage</span>
+            </a>
           </div>
-          <div class="myth-copy"><span>03 · Aphrodite</span><h3>Attirer.</h3><p>Le désir visuel devient confiance, jamais manipulation.</p><a href="assets/v2/SOURCES.json">Génération originale · manifeste ↗</a></div>
+          <div class="myth-copy"><span>03 · Aphrodite</span><h3>Attirer.</h3><p>Le désir visuel devient confiance, jamais manipulation.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
         </article>
 
-        <article class="myth-card myth-card-wide myth-card-last" data-reveal data-parallax>
-          <div class="myth-image generated-duo">
-            <img src="assets/v2/aegean-zeus.webp" width="1254" height="1254" loading="lazy" alt="Figure adulte drapée monumentale, ancrée dans la moitié gauche d’un diptyque ultramarin">
-            <img src="assets/v2/aegean-matter.webp" width="1254" height="1254" loading="lazy" alt="Relief abstrait de plans minéraux, formant la moitié droite d’un diptyque ultramarin">
+        <article class="myth-card myth-card-wide myth-card-last" data-reveal>
+          <div class="myth-image myth-variants" role="group" aria-label="Deux études visuelles de Zeus">
+            <a class="myth-variant" href="assets/v3/hyperpsyche-zeus-a.webp" aria-label="Ouvrir en grand Zeus A, citadelle polygravitationnelle">
+              <img src="assets/v3/hyperpsyche-zeus-a.webp" width="1080" height="1080" loading="lazy" alt="Deux figures de Zeus traversent une citadelle disloquée par des éclairs et plusieurs directions de gravité">
+              <span class="myth-variant-label">A · Citadelle polygravitationnelle</span>
+            </a>
+            <a class="myth-variant" href="assets/v3/hyperpsyche-zeus-b.webp" aria-label="Ouvrir en grand Zeus B, foudre architecturale">
+              <img src="assets/v3/hyperpsyche-zeus-b.webp" width="1080" height="1080" loading="lazy" alt="Zeus se dédouble dans une explosion de colonnes, de pierres suspendues et de foudre calligraphique">
+              <span class="myth-variant-label">B · Foudre architecturale</span>
+            </a>
           </div>
-          <div class="myth-copy"><span>04 · Zeus &amp; la matière</span><h3>Tenir.</h3><p>Un système cohérent survit aux modes et aux écrans.</p><a href="assets/v2/SOURCES.json">Voir toute la provenance ↗</a></div>
+          <div class="myth-copy"><span>04 · Zeus</span><h3>Tenir.</h3><p>Un système cohérent survit aux modes et aux écrans.</p><a href="assets/v3/SOURCES.json">Collection Hyperpsyché · provenance ↗</a></div>
         </article>
       </div>
     </section>
 
     <section class="brain" id="cerveau">
       <div class="brain-word" aria-hidden="true">MNÉMOSYNE</div>
-      <div class="brain-visual" data-parallax data-reveal>
-        <img class="brain-texture" src="assets/v2/aegean-mnemosyne.webp" width="1254" height="1254" loading="lazy" alt="Archive Mnémosyne non figurative : strates liquides, nœuds de mémoire et interférences en estampe ultramarine">
-        <div class="memory-machine" aria-hidden="true">
-          <span class="memory-strata"></span>
-          <span class="memory-ring memory-ring-a"></span>
-          <span class="memory-ring memory-ring-b"></span>
-          <span class="memory-ring memory-ring-c"></span>
-          <span class="memory-lens"><i></i><b></b></span>
-          <span class="memory-node memory-node-a"></span>
-          <span class="memory-node memory-node-b"></span>
-          <span class="memory-node memory-node-c"></span>
-        </div>
+      <div class="brain-visual" data-reveal>
+        <img class="brain-texture" src="assets/v2/aegean-mnemosyne.webp" width="1254" height="1254" loading="lazy" alt="Archive Mnémosyne non figurative, pliée en strates temporelles et cartes impossibles">
       </div>
       <div class="brain-copy" data-reveal>
         <p class="section-tag">Protocole 03 — La mémoire</p>
@@ -214,7 +228,7 @@
         <h2 id="finale-title">Nous filons<br><i>le possible.</i></h2>
         <div class="finale-actions">
           <a class="button button-bone" href="#top">Revenir à la lumière ↑</a>
-          <button class="moira-toggle" id="moira-toggle" type="button" aria-pressed="true">Suspendre le fil</button>
+          <button class="moira-toggle" id="moira-toggle" type="button" aria-pressed="false">Suspendre le fil</button>
         </div>
       </div>
       <div class="moira" id="moira-stage" aria-hidden="true">

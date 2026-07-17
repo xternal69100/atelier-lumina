@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-17T14:48:35.008368Z",
+  "created_at": "2026-07-17T19:17:36.532499Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -14,58 +14,103 @@
     },
     {
       "path": "agency-site/app.js",
-      "sha256": "7205efd05c3ec54fa27265e787f3799e1a7c0d2a39f9ee57434def9e8c2ebfec",
-      "size": 1042
+      "sha256": "375f228a5ea39fbaa2abddd027eaf67e69e728a28c804ca450ae4e4009771c27",
+      "size": 1039
     },
     {
       "path": "agency-site/assets/v2/SOURCES.json",
-      "sha256": "9cb5ad3204caa3ec163afafaa02d92cdd4db1e55317b513cd4ff62beec85b832",
-      "size": 3897
+      "sha256": "d626b660b1ed3f52a3e3d34c9c64870d9fd8b1d6f64bc20c2b9cdf5be1cc553f",
+      "size": 5788
     },
     {
       "path": "agency-site/assets/v2/aegean-aphrodite.webp",
-      "sha256": "40773d34e029f7f98368e796fbce31219f6754447eee194f89807d5f422268fc",
-      "size": 493844
+      "sha256": "6851fc046b27d6144ea3f002cf6ab942371b263918e7752596fd4d30da73c100",
+      "size": 857470
     },
     {
       "path": "agency-site/assets/v2/aegean-apollo.webp",
-      "sha256": "cb38e52f49fd1a2e7b9a1d1ea290e079fb99f8908c85ab21a044b400e58b499c",
-      "size": 467774
+      "sha256": "78e5983ab1edd1032753431bb1330b7238d48cb1a47230978c4aaac9c0f37e0b",
+      "size": 942246
     },
     {
       "path": "agency-site/assets/v2/aegean-hero.webp",
-      "sha256": "b5ab8095ac0e9fc94baa6f2aa4a35108453314af68938da44e4346291494d6f5",
-      "size": 333264
+      "sha256": "a549a5bd2c159d18a777d80516535cb7a0e530253dca6823b8bdb136f0c19e1b",
+      "size": 812298
     },
     {
       "path": "agency-site/assets/v2/aegean-matter.webp",
-      "sha256": "f95993881a78afb60c24a6f9ca8a5bac82ab14e5af4aaf72d681c4332f8b4958",
-      "size": 474222
+      "sha256": "1a3761df07466a54586484d1499832436e59d9616f82079caff93c36bdf14850",
+      "size": 1019688
     },
     {
       "path": "agency-site/assets/v2/aegean-mnemosyne.webp",
-      "sha256": "4c3e62aa697867e4f3027bd478522018cbb5af2414dc6fe85841292bde7820a2",
-      "size": 921714
+      "sha256": "bc49f999fff10a1c4d53d6b3cb5b9afbfab45bb35af227c29aa2f4b003185ca0",
+      "size": 722306
     },
     {
       "path": "agency-site/assets/v2/aegean-moira.webp",
-      "sha256": "609f416708349d48e8ea17278723cc55a8bf3986560fb1c2c9f40b12672bc06c",
-      "size": 303998
+      "sha256": "59cd39b066334d91ef8122cdda72c0f62f191e65dcfe0b48f8a332412bc1688b",
+      "size": 885314
     },
     {
       "path": "agency-site/assets/v2/aegean-oracle.webp",
-      "sha256": "6ca4cc6b598068007dfa21dd7c8f3ca9aa1157d4c3d5f021bb818845d5428ef8",
-      "size": 529790
+      "sha256": "d7b6d8e4ffcf1a078a7a77e9f95ae0a0633f1e4cbb360487be9ac710d9fde8b8",
+      "size": 924880
     },
     {
       "path": "agency-site/assets/v2/aegean-zeus.webp",
-      "sha256": "940a627dd970178e89a7e64c055827a0bffbea1576508f1818ea4f1bad4e843f",
-      "size": 554532
+      "sha256": "cf196dc849c59047f2e71215c19b729f85d38857459e4b4fe9d1e129b47d0e9c",
+      "size": 732498
+    },
+    {
+      "path": "agency-site/assets/v3/SOURCES.json",
+      "sha256": "04ef00cc256cbbe19034d6c9d282e39b0c00c95fe6c0310319e2aa55a36e5581",
+      "size": 5926
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-aphrodite-a.webp",
+      "sha256": "d4a74bcc20da9977df0ac6014561f344b519313e519e0d00269181653ffc9118",
+      "size": 496240
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-aphrodite-b.webp",
+      "sha256": "098a4ae7f81585f111333ae60cb1d9cfc21c988a1d499117fca6884f310e9d10",
+      "size": 459278
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-apollo-a.webp",
+      "sha256": "3043adb659b87f3f0775781db8d231a59ae270ca503a8febc532710b5319e434",
+      "size": 387898
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-apollo-b.webp",
+      "sha256": "9265dd71bdbd0e21d0aa6329304684a202503d9cf2a5aa6884ac9be0ebd6db89",
+      "size": 486052
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-athena-a.webp",
+      "sha256": "8a2a3e9b218568fd1e9b8b6591b0e8d5202d2672b4b803b9dcd4801c1898e210",
+      "size": 531302
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-athena-b.webp",
+      "sha256": "497cd85ecaf2d152f60a828c759c064429e4e70b640af38fffaabb1263eb154b",
+      "size": 503976
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-zeus-a.webp",
+      "sha256": "8dbb0793c3868a49736ce73ca8cff05f2eaa0b737fc2ec9621de16af25bc3ea8",
+      "size": 582520
+    },
+    {
+      "path": "agency-site/assets/v3/hyperpsyche-zeus-b.webp",
+      "sha256": "e6b4707bba26ea9a89b482a63e51c100e0acee9d8f5f37ecf4536d77b6fcbc4d",
+      "size": 496480
     },
     {
       "path": "agency-site/index.html",
-      "sha256": "f417f7162d5bc15825e4ed3c6bc181a5085677417f6fb79780ed7393084a8449",
-      "size": 14293
+      "sha256": "7256c207b5055798120bab1a15face63199984c8c776c57b2791df593ec181bc",
+      "size": 16359
     },
     {
       "path": "agency-site/moira-orbit/app.js",
@@ -79,18 +124,13 @@
     },
     {
       "path": "agency-site/moira-orbit/styles.css",
-      "sha256": "d8fae4458d4e6600872ce2a5cf80214abcc2c688bce7d4a93c76f6dd1399166c",
-      "size": 7753
-    },
-    {
-      "path": "agency-site/psyche.js",
-      "sha256": "d0413efd9841ae08e6b56c3adde61cdec40e09920e9d6508f36b5c21dc948322",
-      "size": 6285
+      "sha256": "a6b87b8975560166f02d377f3b1296e315b0582ae65aa2bcce01eaef10bd542b",
+      "size": 7697
     },
     {
       "path": "agency-site/styles.css",
-      "sha256": "7dd71e0b98320eba26812f1076ca2dc4f671018c21dcd24d08a5f750f628b04d",
-      "size": 27957
+      "sha256": "816bad4499fcd6a32b9a78e469709aaf9a88d18097c186768228cc87adaf1e2f",
+      "size": 22381
     },
     {
       "path": "archive/agency-v1-kinetic-poise/index.html",
@@ -153,8 +193,8 @@
       "size": 1078
     }
   ],
-  "run_id": "agency-psyche-20260717-140153",
+  "run_id": "agency-hyperpsyche-site-20260717-185024",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "2048b0b6f87d8ca423e3a3466e9b6e5eb3f5b17717e9e2ccdbc6f3a2b2937cc3"
+  "tree_hash": "d9c2554cd8f10da5ee980ae925e5438c5778441c045f4e53eb889d073e335fee"
 }

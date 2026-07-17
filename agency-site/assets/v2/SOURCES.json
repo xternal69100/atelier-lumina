@@ -1,101 +1,127 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
+  "run_id": "agency-image-psychedelia-20260717-162326",
   "verified_on": "2026-07-17",
   "rights_summary": "All public image assets are original generated works commissioned for Atelier Lumina. No third-party artwork or museum photography remains in the public payload.",
+  "creative_principle": "Psychédélie intrinsèque aux pixels générés; CSS limited to layout, readability and the single functional Moira orbit.",
   "optimization": {
     "format": "WebP",
     "encoder": "FFmpeg libwebp",
     "dimensions_preserved": true,
-    "default_quality": 88,
     "selected_asset_quality": 91
   },
   "generated_assets": [
     {
       "file": "aegean-hero.webp",
-      "origin": "OpenAI built-in image generation",
-      "prompt_record": "agency/versions/v2-aegean-signal/02-image-prompts.md",
+      "candidate_id": "hero",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
       "dimensions": [
-        864,
-        1821
+        1024,
+        1536
       ],
-      "sha256": "b5ab8095ac0e9fc94baa6f2aa4a35108453314af68938da44e4346291494d6f5"
+      "quality": 91,
+      "source_png_sha256": "e1b098213c452c523728fad8aa003dae9b46e9c4f68663f4ec6389e2206685b4",
+      "sha256": "a549a5bd2c159d18a777d80516535cb7a0e530253dca6823b8bdb136f0c19e1b"
     },
     {
       "file": "aegean-oracle.webp",
-      "origin": "OpenAI built-in image generation",
-      "prompt_record": "agency/versions/v2-aegean-signal/02-image-prompts.md",
-      "dimensions": [
-        1254,
-        1254
-      ],
-      "sha256": "6ca4cc6b598068007dfa21dd7c8f3ca9aa1157d4c3d5f021bb818845d5428ef8"
-    },
-    {
-      "file": "aegean-moira.webp",
-      "origin": "OpenAI built-in image generation",
-      "prompt_record": "agency/versions/v2-aegean-signal/02-image-prompts.md",
-      "dimensions": [
-        864,
-        1821
-      ],
-      "sha256": "609f416708349d48e8ea17278723cc55a8bf3986560fb1c2c9f40b12672bc06c"
-    },
-    {
-      "file": "aegean-apollo.webp",
-      "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
-      "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [
-        1254,
-        1254
-      ],
-      "source_png_sha256": "cdafd87f552282e7876e7b2d26d540afdae6b987cb690c8b34365f0f9dae3ecb",
-      "sha256": "cb38e52f49fd1a2e7b9a1d1ea290e079fb99f8908c85ab21a044b400e58b499c"
-    },
-    {
-      "file": "aegean-aphrodite.webp",
-      "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
-      "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [
-        1254,
-        1254
-      ],
-      "source_png_sha256": "e90198e55ed8933781f6b8b5fe0508bf31d8dea7fce7ae1d4e1f7e350b903981",
-      "sha256": "40773d34e029f7f98368e796fbce31219f6754447eee194f89807d5f422268fc"
-    },
-    {
-      "file": "aegean-zeus.webp",
-      "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
-      "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [
-        1254,
-        1254
-      ],
-      "source_png_sha256": "a049b6391ae017c023409233d2588a3d8b18d7def4ceea6f65086eaf46fd29d8",
-      "sha256": "940a627dd970178e89a7e64c055827a0bffbea1576508f1818ea4f1bad4e843f"
-    },
-    {
-      "file": "aegean-matter.webp",
-      "origin": "FAL.ai FLUX 2 Klein 9B via the root-owned image-request worker",
-      "prompt_record": "agency/runs/rework-20260717-1007-agency-execution/imagecrafter-prompts.json",
-      "dimensions": [
-        1254,
-        1254
-      ],
-      "source_png_sha256": "273159a49cee541009b3509206870895a3174cb44e5edbd574699cf4a2e40028",
-      "sha256": "f95993881a78afb60c24a6f9ca8a5bac82ab14e5af4aaf72d681c4332f8b4958"
-    },
-    {
-      "file": "aegean-mnemosyne.webp",
+      "candidate_id": "athena-b",
       "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
-      "prompt_record": "agency/runs/agency-psyche-20260717-140153/image-prompts.json",
-      "selection_record": "agency/runs/agency-psyche-20260717-140153/image-selection.json",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
       "dimensions": [
         1254,
         1254
       ],
       "quality": 91,
-      "source_png_sha256": "18de0684f9748f8479d6b40540363d06b11df457c9e0bd0671cb6b4bc4cda649",
-      "sha256": "4c3e62aa697867e4f3027bd478522018cbb5af2414dc6fe85841292bde7820a2"
+      "source_png_sha256": "d79e62f28cfbc0a4ddc5f93edf831302a7f059d0c960ace19b434f28f490dfe1",
+      "sha256": "d7b6d8e4ffcf1a078a7a77e9f95ae0a0633f1e4cbb360487be9ac710d9fde8b8"
+    },
+    {
+      "file": "aegean-apollo.webp",
+      "candidate_id": "apollo-b",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "quality": 91,
+      "source_png_sha256": "1e02a28a8aa2ae9c9795ea9790d116de0a9e166786c4afdb2e81965fb903f8ad",
+      "sha256": "78e5983ab1edd1032753431bb1330b7238d48cb1a47230978c4aaac9c0f37e0b"
+    },
+    {
+      "file": "aegean-aphrodite.webp",
+      "candidate_id": "aphrodite-b",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "quality": 91,
+      "source_png_sha256": "80607072c72d3e4511631d8832d96418983877d2ee009b13f0df8a736ebda42e",
+      "sha256": "6851fc046b27d6144ea3f002cf6ab942371b263918e7752596fd4d30da73c100"
+    },
+    {
+      "file": "aegean-zeus.webp",
+      "candidate_id": "zeus",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "quality": 91,
+      "source_png_sha256": "cca19c0cf40cce15653adfdb4c353fce2e346c7804719d8e518e858a41921802",
+      "sha256": "cf196dc849c59047f2e71215c19b729f85d38857459e4b4fe9d1e129b47d0e9c"
+    },
+    {
+      "file": "aegean-matter.webp",
+      "candidate_id": "matter",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "quality": 91,
+      "source_png_sha256": "6b2c8543aad91d93911bcacfb4ccb308bc25cf4f8a03961aeeb9879c83057eb5",
+      "sha256": "1a3761df07466a54586484d1499832436e59d9616f82079caff93c36bdf14850"
+    },
+    {
+      "file": "aegean-mnemosyne.webp",
+      "candidate_id": "mnemosyne",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "quality": 91,
+      "source_png_sha256": "4e41cbc240fe1e39f3cd67ac5adccc1b2603e525a6fc6397fe7fbf6a43213b63",
+      "sha256": "bc49f999fff10a1c4d53d6b3cb5b9afbfab45bb35af227c29aa2f4b003185ca0"
+    },
+    {
+      "file": "aegean-moira.webp",
+      "candidate_id": "moira-b",
+      "origin": "Root-owned image-request worker; provider/model not asserted by the receipt",
+      "prompt_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-prompts-final.json",
+      "selection_record": "agency/runs/agency-image-psychedelia-20260717-162326/image-selection.json",
+      "dimensions": [
+        864,
+        1821
+      ],
+      "quality": 91,
+      "source_png_sha256": "8f24c6cfb92578d2b6c1017022d10f5ad05286b23934b23f4f70fbd8ddbbfad3",
+      "sha256": "59cd39b066334d91ef8122cdda72c0f62f191e65dcfe0b48f8a332412bc1688b"
     }
   ],
   "third_party_public_assets": []

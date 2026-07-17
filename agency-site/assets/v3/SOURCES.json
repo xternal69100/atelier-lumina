@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "run_id": "agency-hyperpsyche-site-20260717-185024",
+  "source_preview_run": "agency-gods-hyperpsyche-20260717-180504",
+  "verified_on": "2026-07-17",
+  "rights_summary": "Eight original generated preview images commissioned for Atelier Lumina; no third-party imagery.",
+  "creative_principle": "Four deity-specific mechanisms carried entirely by generated pixels; CSS limited to layout, labels and readability.",
+  "old_assets_policy": "All files in assets/v2 are retained byte-for-byte.",
+  "optimization": {
+    "format": "WebP",
+    "encoder": "FFmpeg libwebp",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "quality": 88
+  },
+  "generated_assets": [
+    {
+      "file": "hyperpsyche-athena-a.webp",
+      "candidate_id": "athena-a",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "6a8f993f47dfb5c3521c5eae10b4666b979ae333da113f0720da2c77ffc3a388",
+      "sha256": "8a2a3e9b218568fd1e9b8b6591b0e8d5202d2672b4b803b9dcd4801c1898e210",
+      "bytes": 531302
+    },
+    {
+      "file": "hyperpsyche-athena-b.webp",
+      "candidate_id": "athena-b",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "c8c5b823e41a1dc1c53cb8c901d9ce1099b4d5ee8f1942fdc88f85624738ed66",
+      "sha256": "497cd85ecaf2d152f60a828c759c064429e4e70b640af38fffaabb1263eb154b",
+      "bytes": 503976
+    },
+    {
+      "file": "hyperpsyche-apollo-a.webp",
+      "candidate_id": "apollo-a",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "45eb62be5e45d95071f724011c40d4f87d42f59ae0a0b463572479947ab16af3",
+      "sha256": "3043adb659b87f3f0775781db8d231a59ae270ca503a8febc532710b5319e434",
+      "bytes": 387898
+    },
+    {
+      "file": "hyperpsyche-apollo-b.webp",
+      "candidate_id": "apollo-b",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "e4b8078d3d5da4bc58b893840f746c84b5aa59a0abd23a7817fb06e4fc959671",
+      "sha256": "9265dd71bdbd0e21d0aa6329304684a202503d9cf2a5aa6884ac9be0ebd6db89",
+      "bytes": 486052
+    },
+    {
+      "file": "hyperpsyche-aphrodite-a.webp",
+      "candidate_id": "aphrodite-a",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "0e13e738572f87bdaf55c8105bb587fa2a00ab11b7c833796ca389be5b780d83",
+      "sha256": "d4a74bcc20da9977df0ac6014561f344b519313e519e0d00269181653ffc9118",
+      "bytes": 496240
+    },
+    {
+      "file": "hyperpsyche-aphrodite-b.webp",
+      "candidate_id": "aphrodite-b",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "ff7070a16ffb96563329c6cc6c14937949eacb7d68ff3c1d4a301ac0fe8458d8",
+      "sha256": "098a4ae7f81585f111333ae60cb1d9cfc21c988a1d499117fca6884f310e9d10",
+      "bytes": 459278
+    },
+    {
+      "file": "hyperpsyche-zeus-a.webp",
+      "candidate_id": "zeus-a",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "41434c70e8c2f85ae65719db0f0ce2ebd2246285a293c04e84211fdbbdf6c0ff",
+      "sha256": "8dbb0793c3868a49736ce73ca8cff05f2eaa0b737fc2ec9621de16af25bc3ea8",
+      "bytes": 582520
+    },
+    {
+      "file": "hyperpsyche-zeus-b.webp",
+      "candidate_id": "zeus-b",
+      "origin": "Root-owned image-request worker; provider/model not asserted by receipt",
+      "prompt_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/prompts.json",
+      "review_record": "agency/runs/agency-gods-hyperpsyche-20260717-180504/visual-review.json",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "quality": 88,
+      "source_png_sha256": "7ef11218c3cbd7962d1b16b634a12f62373ced14427c9db0bdb3a2c8518c443c",
+      "sha256": "e6b4707bba26ea9a89b482a63e51c100e0acee9d8f5f37ecf4536d77b6fcbc4d",
+      "bytes": 496480
+    }
+  ],
+  "third_party_public_assets": []
+}
