@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-17T20:49:22.147840Z",
+  "created_at": "2026-07-18T00:51:20.936982Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -16,6 +16,31 @@
       "path": "agency-site/app.js",
       "sha256": "375f228a5ea39fbaa2abddd027eaf67e69e728a28c804ca450ae4e4009771c27",
       "size": 1039
+    },
+    {
+      "path": "agency-site/assets/v1/SOURCES.json",
+      "sha256": "1b6288aab42052893b1d2ec4881f3d2201d53d9d6bc5785c3c85f100bce984d5",
+      "size": 2895
+    },
+    {
+      "path": "agency-site/assets/v1/met-aphrodite-254697.jpg",
+      "sha256": "53e6dc5bd2adb8a9997d83d2d5de60941966f863889ca36398913d6ccfd88def",
+      "size": 23537
+    },
+    {
+      "path": "agency-site/assets/v1/met-aphrodite-crouching-248138.jpg",
+      "sha256": "2f970538df5e53ce56a1aac9711ff8a92ff3afdba0b873151c427171343b5dbc",
+      "size": 42224
+    },
+    {
+      "path": "agency-site/assets/v1/met-youth-252350.jpg",
+      "sha256": "90f323a44f5c379e03096ef2b4877b5a5c889f1d58297a59482e80653b66edc6",
+      "size": 27606
+    },
+    {
+      "path": "agency-site/assets/v1/met-zeus-252511.jpg",
+      "sha256": "ca72821b9d43757836360990670420307e8bc8b76a29cdfbbfab90a5f5bcafa9",
+      "size": 58413
     },
     {
       "path": "agency-site/assets/v2/SOURCES.json",
@@ -109,8 +134,8 @@
     },
     {
       "path": "agency-site/index.html",
-      "sha256": "a97b1c08d1ddd242461946889b5bc607088af4d58cd6ac1dc3fe3b1a463107e7",
-      "size": 21931
+      "sha256": "bec207c49525cd64d9d8713c7b9f3db50dfdcdd1d03749a5e1bf1efe35068999",
+      "size": 25437
     },
     {
       "path": "agency-site/moira-orbit/app.js",
@@ -128,9 +153,14 @@
       "size": 7697
     },
     {
+      "path": "agency-site/psyche.js",
+      "sha256": "5caed7f4b7cd0d91ec42a1809e586efc9caa1d7e3f1d803d84bcbb69b6ca0aaa",
+      "size": 6310
+    },
+    {
       "path": "agency-site/styles.css",
-      "sha256": "41cf2f00fe1b756dc75776abb8674e591707b8b26d387090a676329c90f86402",
-      "size": 23749
+      "sha256": "029b6e4e94a847f7309395c41decb18805bd79a712310cc3ad439eb3590a6712",
+      "size": 32953
     },
     {
       "path": "agency-site/variants.js",
@@ -198,8 +228,8 @@
       "size": 1078
     }
   ],
-  "run_id": "agency-three-versions-20260717-202514",
+  "run_id": "agency-restore-originals-20260717-230748",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "6b327b1aae8503ee73a618e5ffca1b0ec0f50d37bce89d3a6f23da8d0f65bc95"
+  "tree_hash": "fb6887e39b3cf7366c5d3e6f7b9f1a0d8b38b0180d04fb1ccb0bc22ac8c2fb73"
 }
