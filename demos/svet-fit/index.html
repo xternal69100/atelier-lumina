@@ -1,139 +1,107 @@
 <!doctype html>
-<html lang="fr" class="no-js gate-overlay-page">
+<html lang="fr" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive">
-  <meta name="description" content="Concept indépendant de site pour Svet Fit, coaching privé à Lausanne.">
+  <meta name="description" content="Concept indépendant non officiel pour Svet Fit : coaching privé à Lausanne.">
   <meta name="theme-color" content="#111214">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'none'; font-src 'self'; media-src 'self'; worker-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
   <title>Svet Fit — concept Atelier Lumina</title>
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../../shared/gate.css">
   <link rel="stylesheet" href="styles.css">
-  <script src="../../shared/gate.js" defer></script>
-  <script src="../../shared/motion.js" defer></script>
+  <link rel="stylesheet" href="mobile-rework.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#content">Aller au contenu</a>
-  <div class="lumina-gate-shell" data-lumina-gate data-gate-id="svet-fit-demo" data-gate-mode="overlay">
-    <div class="lumina-gate-panel" data-gate-panel role="dialog" aria-modal="true" aria-labelledby="demo-gate-title" aria-describedby="demo-gate-copy">
-      <div class="lumina-gate-card">
-        <p class="lumina-gate-kicker">Atelier Lumina · Démo privée</p>
-        <h2 class="lumina-gate-title" id="demo-gate-title">Kinetic Poise</h2>
-        <p class="lumina-gate-copy" id="demo-gate-copy">Concept indépendant et non officiel pour Svet Fit. Le code protège seulement la présentation ; aucune donnée sensible n'est hébergée.</p>
-        <form class="lumina-gate-form" data-gate-form>
-          <label class="lumina-gate-label" for="demo-code">Code de présentation</label>
-          <input class="lumina-gate-input" id="demo-code" data-gate-input type="password" inputmode="numeric" autocomplete="current-password" placeholder="Code" required>
-          <button class="lumina-gate-submit" type="submit">Découvrir</button>
-        </form>
-        <p class="lumina-gate-error" data-gate-error role="alert" aria-live="polite"></p>
-        <noscript><p class="lumina-gate-noscript">JavaScript doit être activé pour consulter cette démonstration.</p></noscript>
+  <div class="concept-banner" role="note"><span>Concept spéculatif non affilié · aucune réservation réelle</span><a href="completez-vos-informations.html">Complétez les informations manquantes <span aria-hidden="true">→</span></a></div>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Svet Fit, accueil"><span>SVET</span><b>FIT</b></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav"><span aria-hidden="true"></span><span aria-hidden="true"></span><span class="sr-only">Ouvrir le menu</span></button>
+    <nav id="main-nav" aria-label="Navigation principale">
+      <a href="#offre">L’offre</a><a href="#tarifs">Formules</a><a href="#entreprises">Entreprises</a><a href="#faq">FAQ</a><a class="nav-complete" href="completez-vos-informations.html">Compléter</a>
+    </nav>
+    <a class="nav-cta" href="#bilan">Mon bilan <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top">
+      <div class="hero-copy" data-reveal>
+        <p class="kicker"><span>Lausanne</span> Coaching individuel</p>
+        <h1>Plus forte.<br>Plus confiante.<br><em>Durablement.</em></h1>
+        <p class="lede">Un accompagnement privé qui part de votre réalité pour construire une forme solide, une progression lisible et des habitudes qui tiennent.</p>
+        <div class="hero-actions"><a class="button primary" href="#bilan">Préparer mon bilan</a><a class="soft-link" href="#offre">Voir le déroulé <span aria-hidden="true">↓</span></a></div>
+        <ul class="trust-list" aria-label="Repères du coaching"><li>Point de départ personnel</li><li>Plan sur mesure</li><li>Lausanne</li></ul>
       </div>
-    </div>
+      <div class="kinetic" aria-hidden="true"><div class="kinetic-halo"></div><div class="kinetic-body"><span></span><i></i></div><div class="kinetic-ring ring-one"></div><div class="kinetic-ring ring-two"></div><div class="kinetic-line line-one"></div><div class="kinetic-line line-two"></div><p class="vertical-word">MOUVEMENT</p></div>
+      <p class="hero-note" aria-hidden="true">01 — Commencer juste</p>
+    </section>
 
-    <div data-gate-content hidden aria-hidden="true">
-      <div class="concept-banner" role="note">
-        <span>Concept spéculatif non affilié</span>
-        <a href="../../agency-site/">Conçu par Atelier Lumina ↗</a>
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="section-label" data-reveal>Le point de départ</p>
+      <div data-reveal><h2 id="intro-title">Votre corps n’est pas un projet à corriger.</h2><p>Il est un système à comprendre, renforcer et faire progresser à votre rythme.</p></div>
+    </section>
+
+    <section class="offer" id="offre" aria-labelledby="offer-title">
+      <div class="section-head" data-reveal><p class="section-label">L’offre, concrètement</p><h2 id="offer-title">Un cadre clair.<br><em>Votre rythme.</em></h2><p>Les services publics indiquent coaching personnalisé, remise en forme, perte de poids, tonification, prise de muscle et nutrition. Les modalités finales restent à confirmer.</p></div>
+      <div class="offer-layout">
+        <div class="sequence" data-reveal>
+          <ol><li><span>01</span><div><h3>Avant la séance</h3><p>Un échange sur le point de départ, les contraintes et l’intention. Durée, bilan initial et prérequis : <strong>xxx</strong>.</p></div></li><li><span>02</span><div><h3>Pendant la séance</h3><p>Une pratique guidée avec des repères techniques et des ajustements. Lieu, matériel et formats : <strong>xxx</strong>.</p></div></li><li><span>03</span><div><h3>Entre deux rendez-vous</h3><p>Un plan et des repères à adapter à votre quotidien. Fréquence et suivi : <strong>xxx</strong>.</p></div></li></ol>
+        </div>
+        <aside class="access-card" data-reveal aria-labelledby="access-title"><p class="section-label">Accès & disponibilité</p><h3 id="access-title">L’essentiel, en un regard.</h3><dl><div><dt>Lieu</dt><dd>xxx</dd></div><div><dt>Modes</dt><dd>xxx</dd></div><div><dt>Horaires</dt><dd>xxx</dd></div></dl><p class="micro-copy">Ces éléments sont volontairement visibles sans être devinés.</p><a class="text-link" href="completez-vos-informations.html">Indiquer les modalités <span aria-hidden="true">→</span></a></aside>
       </div>
-      <header class="site-header">
-        <a class="logo" href="#top" aria-label="Svet Fit, accueil"><span>SVET</span><b>FIT</b></a>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span class="sr-only">Menu</span></button>
-        <nav id="main-nav" aria-label="Navigation principale">
-          <a href="#objectifs">Objectifs</a><a href="#methode">Méthode</a><a href="#coach">Coaching</a><a href="#faq">FAQ</a>
-        </nav>
-        <a class="nav-cta" href="#bilan">Mon bilan <span aria-hidden="true">↘</span></a>
-      </header>
+    </section>
 
-      <main id="content">
-        <section class="hero" id="top" data-parallax>
-          <div class="hero-copy" data-reveal>
-            <p class="kicker"><span>Lausanne</span> Coaching individuel</p>
-            <h1>Plus forte.<br>Plus confiante.<br><em>Durablement.</em></h1>
-            <p class="lede">Un accompagnement privé qui part de votre réalité pour construire une
-              forme solide, une progression lisible et des habitudes qui tiennent.</p>
-            <div class="hero-actions"><a class="button primary" href="#bilan">Réserver mon bilan</a><a class="soft-link" href="#methode">Voir la méthode <span>↓</span></a></div>
-            <ul class="trust-list" aria-label="Caractéristiques"><li>Point de départ personnel</li><li>Plan sur mesure</li><li>Lausanne</li></ul>
-          </div>
-          <div class="kinetic" aria-hidden="true">
-            <div class="kinetic-halo"></div>
-            <div class="kinetic-body"><span></span><i></i></div>
-            <div class="kinetic-ring ring-one"></div><div class="kinetic-ring ring-two"></div>
-            <div class="kinetic-line line-one"></div><div class="kinetic-line line-two"></div>
-            <p class="vertical-word">MOUVEMENT</p>
-          </div>
-          <p class="hero-note" aria-hidden="true">01 — Commencer juste</p>
-        </section>
+    <section class="goals" id="objectifs" aria-labelledby="goals-title">
+      <div class="section-head compact" data-reveal><p class="section-label">Votre intention</p><h2 id="goals-title">Un objectif qui vous ressemble.</h2><p>Pas de promesse magique : la progression dépend du point de départ, du rythme et du cadre à définir ensemble.</p></div>
+      <div class="goal-grid">
+        <article data-reveal><span>01</span><div class="goal-icon icon-reset" aria-hidden="true"></div><h3>Retrouver la forme</h3><p>Reprendre avec un cadre progressif et une attention à la régularité.</p><a href="#bilan">Préparer le bilan <span aria-hidden="true">↘</span></a></article>
+        <article data-reveal><span>02</span><div class="goal-icon icon-strength" aria-hidden="true"></div><h3>Se renforcer</h3><p>Développer une force utile avec des repères techniques à consolider.</p><a href="#bilan">Préparer le bilan <span aria-hidden="true">↘</span></a></article>
+        <article data-reveal><span>03</span><div class="goal-icon icon-compose" aria-hidden="true"></div><h3>Se tonifier</h3><p>Construire des habitudes d’entraînement sans raccourci ni résultat garanti.</p><a href="#bilan">Préparer le bilan <span aria-hidden="true">↘</span></a></article>
+        <article data-reveal><span>04</span><div class="goal-icon icon-perform" aria-hidden="true"></div><h3>Prendre un palier</h3><p>Faire évoluer une pratique avec un plan et des ajustements réguliers.</p><a href="#bilan">Préparer le bilan <span aria-hidden="true">↘</span></a></article>
+      </div>
+    </section>
 
-        <section class="intro" aria-labelledby="intro-title">
-          <p class="section-label" data-reveal>Le point de départ</p>
-          <div data-reveal><h2 id="intro-title">Votre corps n'est pas un projet à corriger.</h2><p>Il est un système à comprendre, renforcer et faire progresser à votre rythme.</p></div>
-        </section>
+    <section class="pricing" id="tarifs" aria-labelledby="pricing-title">
+      <div class="pricing-intro" data-reveal><p class="section-label">Formules & essai</p><h2 id="pricing-title">Choisir un rythme,<br><em>pas une promesse.</em></h2><p>Les cartes sont prêtes. Les prix, contenus précis, durée de validité et conditions ne sont pas connus : ils apparaissent donc explicitement comme <strong>xxx CHF</strong>.</p></div>
+      <div class="price-grid">
+        <article class="price-card" data-reveal><p class="price-index">01 — Découverte</p><h3>Premier échange</h3><p class="price">xxx <small>CHF</small></p><p>Une porte d’entrée pour préciser format, durée, contenu et éventuelle offre d’essai.</p><ul><li>Durée : xxx</li><li>Format : xxx</li><li>Conditions : xxx</li></ul><a class="button outline" href="completez-vos-informations.html#tarifs-formules">Compléter l’essai</a></article>
+        <article class="price-card featured" data-reveal><p class="price-index">02 — Individuel</p><h3>Coaching personnalisé</h3><p class="price">xxx <small>CHF</small></p><p>Un format individuel dont la fréquence, le lieu et les inclusions restent à renseigner.</p><ul><li>Par séance ou pack : xxx</li><li>Lieu : xxx</li><li>Suivi : xxx</li></ul><a class="button primary" href="completez-vos-informations.html#tarifs-formules">Compléter la formule</a></article>
+        <article class="price-card" data-reveal><p class="price-index">03 — Continuité</p><h3>Programme suivi</h3><p class="price">xxx <small>CHF</small></p><p>Une formule de continuité à définir, sans inventer de nombre de séances ni d’engagement.</p><ul><li>Rythme : xxx</li><li>Validité : xxx</li><li>Annulation : xxx</li></ul><a class="button outline" href="completez-vos-informations.html#annulation-preuves">Préciser les conditions</a></article>
+      </div>
+      <p class="pricing-note">Tarifs non renseignés — <a href="completez-vos-informations.html">la page de complétion les regroupe sans collecter de données.</a></p>
+    </section>
 
-        <section class="goals" id="objectifs" aria-labelledby="goals-title">
-          <div class="section-head" data-reveal><p class="section-label">Votre intention</p><h2 id="goals-title">Un objectif qui vous ressemble.</h2><p>Pas de case femme/homme. On commence par ce que vous voulez ressentir et accomplir.</p></div>
-          <div class="goal-grid">
-            <article data-reveal><span>01</span><div class="goal-icon icon-reset" aria-hidden="true"></div><h3>Retrouver la forme</h3><p>Reprendre sans culpabilité, retrouver énergie, mobilité et régularité.</p><a href="#bilan">En parler ↘</a></article>
-            <article data-reveal><span>02</span><div class="goal-icon icon-strength" aria-hidden="true"></div><h3>Se renforcer</h3><p>Construire une force utile avec une technique précise et progressive.</p><a href="#bilan">En parler ↘</a></article>
-            <article data-reveal><span>03</span><div class="goal-icon icon-compose" aria-hidden="true"></div><h3>Se transformer</h3><p>Faire évoluer sa composition corporelle sans raccourci ni promesse magique.</p><a href="#bilan">En parler ↘</a></article>
-            <article data-reveal><span>04</span><div class="goal-icon icon-perform" aria-hidden="true"></div><h3>Performer</h3><p>Dépasser un palier avec un plan, des repères et une récupération cohérente.</p><a href="#bilan">En parler ↘</a></article>
-          </div>
-        </section>
+    <section class="coach" id="coach" aria-labelledby="coach-title">
+      <figure class="portrait-placeholder"><div aria-hidden="true"><span></span><i></i></div><figcaption>Photo sportive personnelle de Svet à intégrer après confirmation du handle Instagram et de la source.</figcaption></figure>
+      <div class="coach-copy" data-reveal><p class="section-label">Votre coach</p><h2 id="coach-title">Exigence dans le geste.<br><em>Écoute dans le parcours.</em></h2><p>La présentation publique de Svet Fit évoque un coaching personnalisé, la remise en forme, la perte de poids, la tonification, la prise de muscle et la nutrition. Cette démo ne transcrit ni diplômes, ni ancienneté, ni témoignages sans preuves confirmées.</p><div class="proof-placeholder"><span>Preuves à apporter</span><p>Bio validée · diplômes ou certifications · expérience · témoignages consentis · photographie sportive personnelle</p><a class="text-link" href="completez-vos-informations.html#instagram-preuves">Compléter les preuves <span aria-hidden="true">→</span></a></div></div>
+    </section>
 
-        <section class="method" id="methode" aria-labelledby="method-title">
-          <div class="method-art" data-parallax aria-hidden="true"><span class="stone s1"></span><span class="stone s2"></span><span class="stone s3"></span><span class="stone s4"></span><i></i></div>
-          <div class="method-copy">
-            <p class="section-label" data-reveal>La méthode</p><h2 id="method-title" data-reveal>Mesurer moins.<br><em>Comprendre mieux.</em></h2>
-            <ol>
-              <li data-reveal><span>01</span><div><h3>Le bilan</h3><p>Votre histoire, vos contraintes, votre niveau et un objectif réaliste.</p></div></li>
-              <li data-reveal><span>02</span><div><h3>Le plan</h3><p>Une progression claire, adaptée à votre temps et à vos capacités.</p></div></li>
-              <li data-reveal><span>03</span><div><h3>La pratique</h3><p>Des séances guidées, des repères techniques et des ajustements réguliers.</p></div></li>
-              <li data-reveal><span>04</span><div><h3>La progression</h3><p>Observer ce qui fonctionne et construire une autonomie durable.</p></div></li>
-            </ol>
-          </div>
-        </section>
+    <section class="business" id="entreprises" aria-labelledby="business-title">
+      <div class="business-copy" data-reveal><p class="section-label">Pour les entreprises</p><h2 id="business-title">Un format pour vos équipes,<br><em>à définir précisément.</em></h2><p>Les sociétés peuvent signaler leur intérêt pour des séances destinées à leur personnel. Les formats, la taille des groupes, les lieux, disponibilités et modalités de devis sont à confirmer par Svet Fit.</p><a class="button primary" href="completez-vos-informations.html#entreprises-modalites">Définir l’offre entreprises</a></div>
+      <div class="business-spec" data-reveal><dl><div><dt>Formats possibles</dt><dd>xxx</dd></div><div><dt>Taille de groupe</dt><dd>xxx</dd></div><div><dt>Lieu</dt><dd>xxx</dd></div><div><dt>Devis / réservation</dt><dd>xxx</dd></div></dl><p>Ces champs sont des composants définitifs avec des informations volontairement non inventées.</p></div>
+    </section>
 
-        <section class="coach" id="coach" aria-labelledby="coach-title">
-          <div class="portrait-placeholder" aria-label="Emplacement réservé à un portrait réel et consenti de la coach">
-            <div aria-hidden="true"><span></span><i></i></div><p>Portrait consenti<br>à intégrer</p>
-          </div>
-          <div class="coach-copy" data-reveal>
-            <p class="section-label">Votre coach</p><h2 id="coach-title">Exigence dans le geste.<br><em>Écoute dans le parcours.</em></h2>
-            <p>Le coaching Svet Fit se présente comme personnalisé et orienté vers la remise en forme,
-              le renforcement, la composition corporelle et la nutrition. La version finale devra
-              documenter diplômes, expérience et méthode avec les preuves validées par Svetlina.</p>
-            <div class="proof-placeholder"><span>À confirmer avant publication</span><p>Diplômes · expérience · lieux de séance · témoignages consentis</p></div>
-          </div>
-        </section>
+    <section class="booking" id="bilan" aria-labelledby="booking-title">
+      <div class="booking-intro" data-reveal><p class="section-label">Premier mouvement</p><h2 id="booking-title">Parlons de votre point de départ.</h2><p>Cette demande est simulée : aucune donnée n’est envoyée, stockée ou transmise.</p></div>
+      <form class="booking-form" id="booking-form" novalidate>
+        <div class="field"><label for="first-name">Prénom</label><input id="first-name" name="first-name" autocomplete="given-name" required><span class="field-error" aria-live="polite"></span></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="field-error" aria-live="polite"></span></div>
+        <fieldset><legend>Votre priorité</legend><div class="choices"><label><input type="radio" name="goal" value="forme" required><span>Forme</span></label><label><input type="radio" name="goal" value="force"><span>Force</span></label><label><input type="radio" name="goal" value="tonification"><span>Tonifier</span></label><label><input type="radio" name="goal" value="palier"><span>Palier</span></label></div><span class="field-error group-error" aria-live="polite"></span></fieldset>
+        <div class="field"><label for="message">Une contrainte à connaître <small>(facultatif)</small></label><textarea id="message" name="message" rows="3"></textarea></div>
+        <button class="button primary" type="submit">Simuler ma demande <span aria-hidden="true">↗</span></button><p class="privacy">Mode démonstration — aucun envoi, aucun tracking, aucune conservation.</p>
+        <div class="success" id="booking-success" role="status" tabindex="-1" hidden><span aria-hidden="true">✓</span><div><h3>La demande est prête.</h3><p>Dans un vrai site, vous recevriez ici une confirmation et le choix d’un créneau.</p></div></div>
+      </form>
+    </section>
 
-        <section class="booking" id="bilan" aria-labelledby="booking-title">
-          <div class="booking-intro" data-reveal><p class="section-label">Premier mouvement</p><h2 id="booking-title">Parlons de votre point de départ.</h2><p>Cette demande est simulée : aucune donnée n'est envoyée ni stockée.</p></div>
-          <form class="booking-form" id="booking-form" novalidate>
-            <div class="field"><label for="first-name">Prénom</label><input id="first-name" name="first-name" autocomplete="given-name" required><span class="field-error" aria-live="polite"></span></div>
-            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="field-error" aria-live="polite"></span></div>
-            <fieldset><legend>Votre priorité</legend><div class="choices"><label><input type="radio" name="goal" value="forme" required><span>Forme</span></label><label><input type="radio" name="goal" value="force"><span>Force</span></label><label><input type="radio" name="goal" value="transformation"><span>Transformation</span></label><label><input type="radio" name="goal" value="performance"><span>Performance</span></label></div><span class="field-error group-error" aria-live="polite"></span></fieldset>
-            <div class="field"><label for="message">Une contrainte à connaître <small>(facultatif)</small></label><textarea id="message" name="message" rows="3"></textarea></div>
-            <button class="button primary" type="submit">Simuler ma demande <span aria-hidden="true">↗</span></button>
-            <p class="privacy">Mode démonstration — aucun envoi, aucun tracking, aucune conservation.</p>
-            <div class="success" id="booking-success" role="status" tabindex="-1" hidden><span aria-hidden="true">✓</span><div><h3>La demande est prête.</h3><p>Dans un vrai site, vous recevriez ici une confirmation et le choix d'un créneau.</p></div></div>
-          </form>
-        </section>
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div><p class="section-label">Avant de commencer</p><h2 id="faq-title">Questions utiles.</h2></div>
+      <div class="accordion"><details><summary>Où et quand ont lieu les séances ?<span aria-hidden="true"></span></summary><p>Lieu : xxx. Horaires : xxx. Les modes de séance ne sont pas encore confirmés ; ils peuvent être renseignés sans inventer sur la page dédiée.</p></details><details><summary>Que comprend une formule ?<span aria-hidden="true"></span></summary><p>Le principe du coaching personnalisé est public ; le détail de l’essai, la durée, le prix, la fréquence et les conditions restent à préciser.</p></details><details><summary>Les entreprises peuvent-elles réserver ?<span aria-hidden="true"></span></summary><p>La démo prévoit une offre pour le personnel. Ses formats et modalités commerciales doivent être validés avant une version officielle.</p></details><details><summary>Cette page permet-elle vraiment de réserver ?<span aria-hidden="true"></span></summary><p>Non. C’est une démonstration Atelier Lumina : le formulaire fonctionne visuellement mais n’envoie et ne conserve rien.</p></details></div>
+    </section>
 
-        <section class="faq" id="faq" aria-labelledby="faq-title">
-          <div><p class="section-label">Avant de commencer</p><h2 id="faq-title">Questions utiles.</h2></div>
-          <div class="accordion">
-            <details><summary>Comment le programme s'adapte-t-il ?<span></span></summary><p>Dans ce concept, le bilan sert à comprendre le point de départ et à proposer une progression réaliste. Le périmètre final reste à confirmer avec la coach.</p></details>
-            <details><summary>Où ont lieu les séances ?<span></span></summary><p>Plusieurs lieux publics sont actuellement mentionnés. L'adresse exacte et les modalités doivent être confirmées avant une publication officielle.</p></details>
-            <details><summary>La nutrition est-elle incluse ?<span></span></summary><p>La nutrition figure dans les services publics de Svet Fit. Le périmètre, les qualifications et les limites devront être précisés par la coach.</p></details>
-            <details><summary>Cette page permet-elle vraiment de réserver ?<span></span></summary><p>Non. C'est une démonstration Atelier Lumina : le formulaire fonctionne visuellement mais n'envoie et ne stocke rien.</p></details>
-          </div>
-        </section>
-      </main>
-
-      <footer><a class="logo" href="#top"><span>SVET</span><b>FIT</b></a><p>Concept indépendant pour une coach sportive à Lausanne.</p><p class="legal">Non affilié à Svet Fit · Aucun contenu repris · Aucun tracking<br>Atelier Lumina · 2026</p></footer>
-    </div>
-  </div>
+    <section class="completion-cta" aria-labelledby="completion-title"><p class="section-label">La pièce qui manque</p><h2 id="completion-title">Tout est prêt à recevoir les informations réelles.</h2><p>Tarifs, lieu, horaires, Instagram, entreprises, annulation et preuves sont regroupés au même endroit — sans aucun envoi depuis cette démo.</p><a class="button primary" href="completez-vos-informations.html">Complétez vos informations <span aria-hidden="true">→</span></a></section>
+  </main>
+  <footer><a class="logo" href="#top"><span>SVET</span><b>FIT</b></a><p>Concept indépendant pour une coach sportive à Lausanne.</p><p class="legal">Non affilié à Svet Fit · Aucun contenu repris · Aucun tracking<br>Atelier Lumina · 2026</p></footer>
 </body>
 </html>

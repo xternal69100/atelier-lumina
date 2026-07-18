@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-18T01:11:16.716744Z",
+  "created_at": "2026-07-18T22:33:33.105131Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -184,18 +184,28 @@
     },
     {
       "path": "demos/svet-fit/app.js",
-      "sha256": "40347fa9a6aa9c87c968fbefbee23d3b410b19e708e0e903112477dba4e7a507",
-      "size": 1727
+      "sha256": "998d365e2f77e8bf977d450f3bcb7b604e0b7af57e0e99b8f3ad2ece93bde4e6",
+      "size": 3642
+    },
+    {
+      "path": "demos/svet-fit/completez-vos-informations.html",
+      "sha256": "5e63975315a62f9933dc693a2394da3a23ba8883aa3f62d75ceab86bf4afe024",
+      "size": 8133
     },
     {
       "path": "demos/svet-fit/index.html",
-      "sha256": "eb2c894f54c5fc3345b8a531bbd4b113d41afeb9cf13f688009d7dd4cb86d688",
-      "size": 12114
+      "sha256": "a4c81e37db2cccf3e6568025001678939fd72c4b676d5e53f6dda72c5b2608f0",
+      "size": 14791
+    },
+    {
+      "path": "demos/svet-fit/mobile-rework.css",
+      "sha256": "e9d4b07f75c267ffd7e2d0a2fb15c93d6df5dcdac6ab0a8bc6a978cd4d1270b3",
+      "size": 1413
     },
     {
       "path": "demos/svet-fit/styles.css",
-      "sha256": "9d363e05b40e1324f19e61f619da4b481bf2a855abc5ff45f0552d4ca3121a7b",
-      "size": 16898
+      "sha256": "f3a1a20b9d9701893318283d9fbcd6e690ff6664b34367e1e6b97c44c8d6ea16",
+      "size": 23096
     },
     {
       "path": "favicon.svg",
@@ -233,8 +243,8 @@
       "size": 1078
     }
   ],
-  "run_id": "agency-restore-originals-corrective-20260718-005335",
+  "run_id": "svet-fit-preview-20260718-221638",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "09a837badb6268f3dd86fcd6965d369078bdefd39664e6045d24f8370b4c6665"
+  "tree_hash": "e682243baf7eac1c347e5397177d7c038b0a8d67135e5e1917278a0af47f4df0"
 }
