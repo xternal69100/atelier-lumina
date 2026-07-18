@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-07-18T00:51:20.936982Z",
+  "built_at": "2026-07-18T01:11:16.716744Z",
   "manifest": "release-manifest.json",
   "project": "atelier-lumina",
-  "run_id": "agency-restore-originals-20260717-230748",
+  "run_id": "agency-restore-originals-corrective-20260718-005335",
   "schema_version": 2,
   "status": "published",
   "surfaces": [
@@ -10,5 +10,5 @@
     "demos/svet-fit"
   ],
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "fb6887e39b3cf7366c5d3e6f7b9f1a0d8b38b0180d04fb1ccb0bc22ac8c2fb73"
+  "tree_hash": "09a837badb6268f3dd86fcd6965d369078bdefd39664e6045d24f8370b4c6665"
 }

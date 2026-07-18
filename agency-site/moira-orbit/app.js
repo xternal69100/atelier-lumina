@@ -5,7 +5,7 @@ const study = document.querySelector('#study');
     toggle.addEventListener('click', () => {
       const paused = study.classList.toggle('paused');
       toggle.textContent = paused ? 'Reprendre' : 'Pause';
-      toggle.setAttribute('aria-pressed', String(!paused));
+      toggle.setAttribute('aria-pressed', String(paused));
     });
 
     speedButtons.forEach(button => button.addEventListener('click', () => {

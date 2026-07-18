@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-18T00:51:20.936982Z",
+  "created_at": "2026-07-18T01:11:16.716744Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -21,6 +21,11 @@
       "path": "agency-site/assets/v1/SOURCES.json",
       "sha256": "1b6288aab42052893b1d2ec4881f3d2201d53d9d6bc5785c3c85f100bce984d5",
       "size": 2895
+    },
+    {
+      "path": "agency-site/assets/v1/aegean-oracle.webp",
+      "sha256": "6ca4cc6b598068007dfa21dd7c8f3ca9aa1157d4c3d5f021bb818845d5428ef8",
+      "size": 529790
     },
     {
       "path": "agency-site/assets/v1/met-aphrodite-254697.jpg",
@@ -44,8 +49,8 @@
     },
     {
       "path": "agency-site/assets/v2/SOURCES.json",
-      "sha256": "d626b660b1ed3f52a3e3d34c9c64870d9fd8b1d6f64bc20c2b9cdf5be1cc553f",
-      "size": 5788
+      "sha256": "217c2a4dbd39fbfddad9a02b8b4df8feb4aeda0752bed3a2fec6f3b5841b6c35",
+      "size": 6036
     },
     {
       "path": "agency-site/assets/v2/aegean-aphrodite.webp",
@@ -134,18 +139,18 @@
     },
     {
       "path": "agency-site/index.html",
-      "sha256": "bec207c49525cd64d9d8713c7b9f3db50dfdcdd1d03749a5e1bf1efe35068999",
+      "sha256": "3fa192f8bd606aa341665ff9d18b064839a90d2eee5ca7c8c1cef966502097ca",
       "size": 25437
     },
     {
       "path": "agency-site/moira-orbit/app.js",
-      "sha256": "8530eff70d52eaff2717d206315de2082489591bce137075ecd5e8927973ce3d",
-      "size": 723
+      "sha256": "bd78325b01275d53c4634d1e198784348889927177864eaf11801708084737de",
+      "size": 722
     },
     {
       "path": "agency-site/moira-orbit/index.html",
-      "sha256": "e68e67f6c60becb4dbdca67e4a08301ee182ff920f0db6df7a198dc1d9aae642",
-      "size": 2820
+      "sha256": "bb52ca43ceb4bab8d44e8c39467b2d74a981a979cd2415063db527c384a9bdc0",
+      "size": 2821
     },
     {
       "path": "agency-site/moira-orbit/styles.css",
@@ -228,8 +233,8 @@
       "size": 1078
     }
   ],
-  "run_id": "agency-restore-originals-20260717-230748",
+  "run_id": "agency-restore-originals-corrective-20260718-005335",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "fb6887e39b3cf7366c5d3e6f7b9f1a0d8b38b0180d04fb1ccb0bc22ac8c2fb73"
+  "tree_hash": "09a837badb6268f3dd86fcd6965d369078bdefd39664e6045d24f8370b4c6665"
 }

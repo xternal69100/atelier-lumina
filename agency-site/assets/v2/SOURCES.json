@@ -2,7 +2,7 @@
   "schema_version": 3,
   "run_id": "agency-image-psychedelia-20260717-162326",
   "verified_on": "2026-07-17",
-  "rights_summary": "All public image assets are original generated works commissioned for Atelier Lumina. No third-party artwork or museum photography remains in the public payload.",
+  "rights_summary": "All v2 image assets are original generated works commissioned for Atelier Lumina. The public payload additionally includes four Metropolitan Museum of Art Open Access photographs in the separate assets/v1 archive.",
   "creative_principle": "Psychédélie intrinsèque aux pixels générés; CSS limited to layout, readability and the single functional Moira orbit.",
   "optimization": {
     "format": "WebP",
@@ -124,5 +124,13 @@
       "sha256": "59cd39b066334d91ef8122cdda72c0f62f191e65dcfe0b48f8a332412bc1688b"
     }
   ],
-  "third_party_public_assets": []
+  "third_party_public_assets": [
+    {
+      "namespace": "assets/v1",
+      "count": 4,
+      "institution": "The Metropolitan Museum of Art",
+      "rights": "CC0 / Open Access",
+      "manifest": "../v1/SOURCES.json"
+    }
+  ]
 }
