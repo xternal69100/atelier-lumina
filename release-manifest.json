@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-19T13:52:07.567747Z",
+  "created_at": "2026-07-19T17:23:31.609223Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -144,8 +144,8 @@
     },
     {
       "path": "agency-site/index.html",
-      "sha256": "7a110ad559cf8fff00be95f304961cd168f21f0abe2b482de414c8cd1af6694e",
-      "size": 26009
+      "sha256": "402ec134fd39102456c4a952e8bdfe24aac1206d8e9ed15cc399f0b5edf5102d",
+      "size": 16684
     },
     {
       "path": "agency-site/moira-orbit/app.js",
@@ -328,8 +328,8 @@
       "size": 1078
     }
   ],
-  "run_id": "agency-svet-fit-integration-corrective-20260719-132353",
+  "run_id": "agency-goddess-final-selection-20260719-170003",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "9ff2d3d51b239fca88ff3d5553de94f915c2abceb88a30b594d0fc9e908bd95c"
+  "tree_hash": "401edf356a23a2b32559b227c724e568e5b0c20db67260dffd7bb5270f5240da"
 }

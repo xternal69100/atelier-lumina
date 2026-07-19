@@ -26,7 +26,6 @@
   <script src="../shared/gate.js" defer></script>
   <script src="../shared/motion.js" defer></script>
   <script src="app.js?v=source-first-20260717" defer></script>
-  <script src="variants.js?v=archive-selector-20260719" defer></script>
   <script src="psyche.js?v=restored-20260717" defer></script>
 </head>
 <body>
@@ -85,81 +84,48 @@
 
     <section class="pantheon" id="pantheon">
       <header class="section-head" data-reveal>
-        <div><p class="section-tag">Protocole 02 — Le panthéon</p><p class="counter">04 figures / 17 choix</p></div>
+        <div><p class="section-tag">Protocole 02 — Le panthéon</p><p class="counter">04 figures / 04 choix verrouillés</p></div>
         <h2>Le mythe devient<br><i>une capacité.</i></h2>
-        <p>Comparez directement les cinq images de la première publication, la série Aegean et les deux nouvelles directions. Une seule version s’affiche à la fois, sans rien supprimer.</p>
+        <p>Quatre images retenues composent le panthéon final. Les études non sélectionnées restent sauvegardées dans l’archive de production.</p>
       </header>
 
       <div class="myth-grid">
         <article class="myth-card myth-card-wide" data-reveal data-parallax>
-          <div class="myth-image myth-switcher" data-version-switcher data-god="Athéna">
-            <div class="version-controls" role="group" aria-label="Choisir une version d’Athéna">
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="athena-stage" data-version-button data-src="assets/v1/aegean-oracle.webp" data-width="1254" data-height="1254" data-label="Origine · Oracle première publication" data-alt="Oracle de marbre en profil, entourée d’un labyrinthe et de constellations">Origine</button>
-              <button class="version-button" type="button" aria-pressed="true" aria-controls="athena-stage" data-version-button data-src="assets/v2/aegean-oracle.webp" data-width="1254" data-height="1254" data-label="Aegean · Oracle cartographique" data-alt="Athéna de profil dans un collage cobalt de cartes, constellations, montagnes et lignes géométriques">Aegean</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="athena-stage" data-version-button data-src="assets/v3/hyperpsyche-athena-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Pluie matricielle" data-alt="Deux profils d’Athéna traversés par une cascade verticale de glyphes et de chiffres colorés">Nouvelle A</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="athena-stage" data-version-button data-src="assets/v3/hyperpsyche-athena-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Oracle chiffré" data-alt="Athéna monumentale enchâssée dans une architecture de signes, nombres et draperies électriques">Nouvelle B</button>
-            </div>
-            <a class="myth-version-stage" id="athena-stage" data-version-stage href="assets/v2/aegean-oracle.webp" aria-label="Ouvrir en grand Athéna, version Aegean">
-              <img data-version-image src="assets/v2/aegean-oracle.webp" width="1254" height="1254" loading="lazy" alt="Athéna de profil dans un collage cobalt de cartes, constellations, montagnes et lignes géométriques">
-              <span class="myth-variant-label" data-version-label>Aegean · Oracle cartographique</span>
+          <div class="myth-image myth-switcher">
+            <a class="myth-version-stage is-met-blue" id="athena-stage" href="assets/v2/aegean-oracle.webp" aria-label="Ouvrir en grand Athéna, Aegean · Oracle cartographique">
+              <img src="assets/v2/aegean-oracle.webp" width="1254" height="1254" loading="lazy" alt="Athéna de profil dans un collage cobalt de cartes, constellations, montagnes et lignes géométriques">
+              <span class="myth-variant-label">Aegean · Oracle cartographique</span>
             </a>
-            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
-            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v1/aegean-oracle.webp">origine</a> · <a href="assets/v2/aegean-oracle.webp">Aegean</a> · <a href="assets/v3/hyperpsyche-athena-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-athena-b.webp">nouvelle B</a>.</p></noscript>
           </div>
           <div class="myth-copy"><span>01 · Athéna</span><h3>Discerner.</h3><p>La stratégie transforme le bruit en décision créative.</p><div class="source-links"><a href="assets/v1/SOURCES.json">Origines · provenance ↗</a><a href="assets/v2/SOURCES.json">Aegean · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>
 
         <article class="myth-card myth-card-wide" data-reveal data-parallax>
-          <div class="myth-image myth-switcher" data-version-switcher data-god="Apollon">
-            <div class="version-controls" role="group" aria-label="Choisir une version d’Apollon">
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="apollo-stage" data-version-button data-src="assets/v1/met-youth-252350.jpg" data-width="444" data-height="625" data-treatment="met-blue" data-fit="print" data-label="Origine · Marbre Met en bleu" data-alt="Statue en marbre d’un jeune homme adulte, vue en pied, Metropolitan Museum of Art">Origine</button>
-              <button class="version-button" type="button" aria-pressed="true" aria-controls="apollo-stage" data-version-button data-src="assets/v2/aegean-apollo.webp" data-width="1254" data-height="1254" data-label="Aegean · Soleil fracturé" data-alt="Apollon drapé traverse un paysage marin fragmenté sous un disque solaire découpé en bandes">Aegean</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="apollo-stage" data-version-button data-src="assets/v3/hyperpsyche-apollo-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Procession temporelle" data-alt="Plusieurs silhouettes d’Apollon avancent dans des lames temporelles aux expositions chromatiques désynchronisées">Nouvelle A</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="apollo-stage" data-version-button data-src="assets/v3/hyperpsyche-apollo-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Tranches solaires" data-alt="Apollon et sa lyre sont découpés en tranches solaires diagonales magenta, bleues et acides">Nouvelle B</button>
-            </div>
-            <a class="myth-version-stage" id="apollo-stage" data-version-stage href="assets/v2/aegean-apollo.webp" aria-label="Ouvrir en grand Apollon, version Aegean">
-              <img data-version-image src="assets/v2/aegean-apollo.webp" width="1254" height="1254" loading="lazy" alt="Apollon drapé traverse un paysage marin fragmenté sous un disque solaire découpé en bandes">
-              <span class="myth-variant-label" data-version-label>Aegean · Soleil fracturé</span>
+          <div class="myth-image myth-switcher">
+            <a class="myth-version-stage is-met-blue" id="apollo-stage" href="assets/v3/hyperpsyche-apollo-b.webp" aria-label="Ouvrir en grand Apollon, Nouvelle B · Tranches solaires">
+              <img src="assets/v3/hyperpsyche-apollo-b.webp" width="1080" height="1080" loading="lazy" alt="Apollon et sa lyre sont découpés en tranches solaires diagonales magenta, bleues et acides">
+              <span class="myth-variant-label">Nouvelle B · Tranches solaires</span>
             </a>
-            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
-            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v1/met-youth-252350.jpg">origine</a> · <a href="assets/v2/aegean-apollo.webp">Aegean</a> · <a href="assets/v3/hyperpsyche-apollo-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-apollo-b.webp">nouvelle B</a>.</p></noscript>
           </div>
           <div class="myth-copy"><span>02 · Apollon</span><h3>Clarifier.</h3><p>Hiérarchie, lumière et rythme rendent l’essentiel évident.</p><div class="source-links"><a href="assets/v1/SOURCES.json">Origines · provenance ↗</a><a href="assets/v2/SOURCES.json">Aegean · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>
 
         <article class="myth-card myth-card-wide myth-card-dark" data-reveal data-parallax>
-          <div class="myth-image myth-switcher" data-version-switcher data-god="Aphrodite">
-            <div class="version-controls" role="group" aria-label="Choisir une version d’Aphrodite">
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="aphrodite-stage" data-version-button data-src="assets/v1/met-aphrodite-254697.jpg" data-width="468" data-height="624" data-treatment="met-blue" data-fit="print" data-label="Origine I · Aphrodite Met en bleu" data-alt="Statue adulte en marbre d’Aphrodite, Metropolitan Museum of Art">Origine I</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="aphrodite-stage" data-version-button data-src="assets/v1/met-aphrodite-crouching-248138.jpg" data-width="399" data-height="625" data-treatment="met-blue" data-fit="print" data-label="Origine II · Aphrodite accroupie Met en bleu" data-alt="Statue adulte en marbre d’Aphrodite accroupie, Metropolitan Museum of Art">Origine II</button>
-              <button class="version-button" type="button" aria-pressed="true" aria-controls="aphrodite-stage" data-version-button data-src="assets/v2/aegean-aphrodite.webp" data-width="1254" data-height="1254" data-label="Aegean · Archipel magnétique" data-alt="Aphrodite drapée flotte entre archipels, vagues, constellations et coulées magenta traversées de sceaux jaunes">Aegean</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="aphrodite-stage" data-version-button data-src="assets/v3/hyperpsyche-aphrodite-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Cartographie cousue" data-alt="Aphrodite se fond dans une cartographie textile cousue, entre rivage, constellation et matière minérale">Nouvelle A</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="aphrodite-stage" data-version-button data-src="assets/v3/hyperpsyche-aphrodite-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Draperie-paysage" data-alt="La draperie d’Aphrodite devient un paysage impossible en torsion, traversé de cartes et de constellations">Nouvelle B</button>
-            </div>
-            <a class="myth-version-stage" id="aphrodite-stage" data-version-stage href="assets/v2/aegean-aphrodite.webp" aria-label="Ouvrir en grand Aphrodite, version Aegean">
-              <img data-version-image src="assets/v2/aegean-aphrodite.webp" width="1254" height="1254" loading="lazy" alt="Aphrodite drapée flotte entre archipels, vagues, constellations et coulées magenta traversées de sceaux jaunes">
-              <span class="myth-variant-label" data-version-label>Aegean · Archipel magnétique</span>
+          <div class="myth-image myth-switcher">
+            <a class="myth-version-stage is-met-blue" id="aphrodite-stage" href="assets/v3/hyperpsyche-aphrodite-a.webp" aria-label="Ouvrir en grand Aphrodite, Nouvelle A · Cartographie cousue">
+              <img src="assets/v3/hyperpsyche-aphrodite-a.webp" width="1080" height="1080" loading="lazy" alt="Aphrodite se fond dans une cartographie textile cousue, entre rivage, constellation et matière minérale">
+              <span class="myth-variant-label">Nouvelle A · Cartographie cousue</span>
             </a>
-            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
-            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v1/met-aphrodite-254697.jpg">origine I</a> · <a href="assets/v1/met-aphrodite-crouching-248138.jpg">origine II</a> · <a href="assets/v2/aegean-aphrodite.webp">Aegean</a> · <a href="assets/v3/hyperpsyche-aphrodite-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-aphrodite-b.webp">nouvelle B</a>.</p></noscript>
           </div>
           <div class="myth-copy"><span>03 · Aphrodite</span><h3>Attirer.</h3><p>Le désir visuel devient confiance, jamais manipulation.</p><div class="source-links"><a href="assets/v1/SOURCES.json">Origines · provenance ↗</a><a href="assets/v2/SOURCES.json">Aegean · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>
 
         <article class="myth-card myth-card-wide myth-card-last" data-reveal data-parallax>
-          <div class="myth-image myth-switcher" data-version-switcher data-god="Zeus">
-            <div class="version-controls" role="group" aria-label="Choisir une version de Zeus">
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="zeus-stage" data-version-button data-src="assets/v1/met-zeus-252511.jpg" data-width="468" data-height="624" data-treatment="met-blue" data-fit="crop" data-label="Origine · Zeus Met en bleu" data-alt="Tête en marbre d’un dieu probablement Zeus, Metropolitan Museum of Art">Origine</button>
-              <button class="version-button" type="button" aria-pressed="true" aria-controls="zeus-stage" data-version-button data-src="assets/v2/aegean-zeus.webp" data-width="1254" data-height="1254" data-label="Aegean · Architecture renversée" data-alt="Zeus drapé traverse une architecture classique renversée, des escaliers suspendus et une carte de constellations cobalt">Aegean</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="zeus-stage" data-version-button data-src="assets/v3/hyperpsyche-zeus-a.webp" data-width="1080" data-height="1080" data-label="Nouvelle A · Citadelle polygravitationnelle" data-alt="Deux figures de Zeus traversent une citadelle disloquée par des éclairs et plusieurs directions de gravité">Nouvelle A</button>
-              <button class="version-button" type="button" aria-pressed="false" aria-controls="zeus-stage" data-version-button data-src="assets/v3/hyperpsyche-zeus-b.webp" data-width="1080" data-height="1080" data-label="Nouvelle B · Foudre architecturale" data-alt="Zeus se dédouble dans une explosion de colonnes, de pierres suspendues et de foudre calligraphique">Nouvelle B</button>
-            </div>
-            <a class="myth-version-stage" id="zeus-stage" data-version-stage href="assets/v2/aegean-zeus.webp" aria-label="Ouvrir en grand Zeus, version Aegean">
-              <img data-version-image src="assets/v2/aegean-zeus.webp" width="1254" height="1254" loading="lazy" alt="Zeus drapé traverse une architecture classique renversée, des escaliers suspendus et une carte de constellations cobalt">
-              <span class="myth-variant-label" data-version-label>Aegean · Architecture renversée</span>
+          <div class="myth-image myth-switcher">
+            <a class="myth-version-stage is-met-blue" id="zeus-stage" href="assets/v2/aegean-zeus.webp" aria-label="Ouvrir en grand Zeus, Aegean · Architecture renversée">
+              <img src="assets/v2/aegean-zeus.webp" width="1254" height="1254" loading="lazy" alt="Zeus drapé traverse une architecture classique renversée, des escaliers suspendus et une carte de constellations cobalt">
+              <span class="myth-variant-label">Aegean · Architecture renversée</span>
             </a>
-            <p class="version-status visually-hidden" role="status" aria-live="polite" data-version-status></p>
-            <noscript><p class="version-fallback">Voir séparément : <a href="assets/v1/met-zeus-252511.jpg">origine</a> · <a href="assets/v2/aegean-zeus.webp">Aegean</a> · <a href="assets/v3/hyperpsyche-zeus-a.webp">nouvelle A</a> · <a href="assets/v3/hyperpsyche-zeus-b.webp">nouvelle B</a>.</p></noscript>
           </div>
           <div class="myth-copy"><span>04 · Zeus</span><h3>Tenir.</h3><p>Un système cohérent survit aux modes et aux écrans.</p><div class="source-links"><a href="assets/v1/SOURCES.json">Origines · provenance ↗</a><a href="assets/v2/SOURCES.json">Aegean · provenance ↗</a><a href="assets/v3/SOURCES.json">Nouvelles · provenance ↗</a></div></div>
         </article>

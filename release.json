@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-07-19T13:52:07.567747Z",
+  "built_at": "2026-07-19T17:23:31.609223Z",
   "manifest": "release-manifest.json",
   "project": "atelier-lumina",
-  "run_id": "agency-svet-fit-integration-corrective-20260719-132353",
+  "run_id": "agency-goddess-final-selection-20260719-170003",
   "schema_version": 2,
   "status": "published",
   "surfaces": [
@@ -10,5 +10,5 @@
     "demos/svet-fit"
   ],
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "9ff2d3d51b239fca88ff3d5553de94f915c2abceb88a30b594d0fc9e908bd95c"
+  "tree_hash": "401edf356a23a2b32559b227c724e568e5b0c20db67260dffd7bb5270f5240da"
 }
