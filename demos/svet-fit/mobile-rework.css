@@ -26,6 +26,8 @@
   }
 
   .concept-banner {
+    position: relative;
+    z-index: 11;
     justify-content: center;
   }
 

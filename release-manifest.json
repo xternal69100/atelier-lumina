@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-19T13:19:29.709280Z",
+  "created_at": "2026-07-19T13:52:07.567747Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -144,8 +144,8 @@
     },
     {
       "path": "agency-site/index.html",
-      "sha256": "6eeda209adef639112db3bfd0c08ea9390e8840331613a93e44727541b71e151",
-      "size": 26080
+      "sha256": "7a110ad559cf8fff00be95f304961cd168f21f0abe2b482de414c8cd1af6694e",
+      "size": 26009
     },
     {
       "path": "agency-site/moira-orbit/app.js",
@@ -169,13 +169,13 @@
     },
     {
       "path": "agency-site/styles.css",
-      "sha256": "029b6e4e94a847f7309395c41decb18805bd79a712310cc3ad439eb3590a6712",
-      "size": 32953
+      "sha256": "64a562c1d7044c664bfb2d6193e5b41512457adcb71f182a61ed572972e5f19b",
+      "size": 33362
     },
     {
       "path": "agency-site/variants.js",
-      "sha256": "a1691fcd6bf87ad12ded9681ab405bc3059e7f8f41d90da27cb67b5edb5ef3bf",
-      "size": 2091
+      "sha256": "780193c51f443cd9b9da77c3bb3b5170367a8cd93a1943c45296ff185624fa6b",
+      "size": 2229
     },
     {
       "path": "archive/agency-v1-kinetic-poise/index.html",
@@ -284,8 +284,8 @@
     },
     {
       "path": "demos/svet-fit/mobile-rework.css",
-      "sha256": "6d7867881d94478cb6b8c93b113070eb76472471377a898a2ce3889df5faa10b",
-      "size": 1372
+      "sha256": "c531e83ab8026299463490635fa57245644a191e894ee24b8e62727ecac09a2d",
+      "size": 1413
     },
     {
       "path": "demos/svet-fit/styles.css",
@@ -328,8 +328,8 @@
       "size": 1078
     }
   ],
-  "run_id": "svet-fit-live-preview-20260719-124913",
+  "run_id": "agency-svet-fit-integration-corrective-20260719-132353",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "a3b582785f785095d16fdf39fb84da609288a49b47af6dfe7f4bb1c59ac00d9c"
+  "tree_hash": "9ff2d3d51b239fca88ff3d5553de94f915c2abceb88a30b594d0fc9e908bd95c"
 }

@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-07-19T13:19:29.709280Z",
+  "built_at": "2026-07-19T13:52:07.567747Z",
   "manifest": "release-manifest.json",
   "project": "atelier-lumina",
-  "run_id": "svet-fit-live-preview-20260719-124913",
+  "run_id": "agency-svet-fit-integration-corrective-20260719-132353",
   "schema_version": 2,
   "status": "published",
   "surfaces": [
@@ -10,5 +10,5 @@
     "demos/svet-fit"
   ],
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "a3b582785f785095d16fdf39fb84da609288a49b47af6dfe7f4bb1c59ac00d9c"
+  "tree_hash": "9ff2d3d51b239fca88ff3d5553de94f915c2abceb88a30b594d0fc9e908bd95c"
 }

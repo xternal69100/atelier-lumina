@@ -93,3 +93,9 @@ main{position:relative;z-index:1}.site-header{z-index:40}.hero,.brain,.finale{ba
 .motion-master{width:48px;min-width:48px;max-width:48px;padding:0;border-radius:50%;font-size:0}
 .motion-master::after{content:"Ⅱ";font:800 .82rem/1 var(--mono)}
 .motion-paused .motion-master::after{content:"▶"}
+
+/* Sélecteur des cinq images de première publication. */
+.version-controls{grid-template-columns:repeat(auto-fit,minmax(6.25rem,1fr))}
+.myth-version-stage.is-met-blue{background:var(--blue)}
+.myth-version-stage.is-met-blue img{object-fit:contain;padding:8%;filter:grayscale(1) contrast(1.4) invert(1);mix-blend-mode:screen}
+.myth-version-stage.is-met-blue[data-fit="crop"] img{object-fit:cover;padding:3%}
