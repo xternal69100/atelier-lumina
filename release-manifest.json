@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-07-19T13:11:27.849125Z",
+  "created_at": "2026-07-19T13:19:29.709280Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -144,8 +144,8 @@
     },
     {
       "path": "agency-site/index.html",
-      "sha256": "7a110ad559cf8fff00be95f304961cd168f21f0abe2b482de414c8cd1af6694e",
-      "size": 26009
+      "sha256": "6eeda209adef639112db3bfd0c08ea9390e8840331613a93e44727541b71e151",
+      "size": 26080
     },
     {
       "path": "agency-site/moira-orbit/app.js",
@@ -169,13 +169,13 @@
     },
     {
       "path": "agency-site/styles.css",
-      "sha256": "64a562c1d7044c664bfb2d6193e5b41512457adcb71f182a61ed572972e5f19b",
-      "size": 33362
+      "sha256": "029b6e4e94a847f7309395c41decb18805bd79a712310cc3ad439eb3590a6712",
+      "size": 32953
     },
     {
       "path": "agency-site/variants.js",
-      "sha256": "780193c51f443cd9b9da77c3bb3b5170367a8cd93a1943c45296ff185624fa6b",
-      "size": 2229
+      "sha256": "a1691fcd6bf87ad12ded9681ab405bc3059e7f8f41d90da27cb67b5edb5ef3bf",
+      "size": 2091
     },
     {
       "path": "archive/agency-v1-kinetic-poise/index.html",
@@ -193,19 +193,99 @@
       "size": 3642
     },
     {
+      "path": "demos/svet-fit/assets/SOURCES.json",
+      "sha256": "7928f2cb8c059ce899396200877e6cc504ffe9f262f661f14f33fa2fe3a69df0",
+      "size": 8139
+    },
+    {
+      "path": "demos/svet-fit/assets/photos/nutrition-evening.jpg",
+      "sha256": "0a131f8d589a67dcadc22fa97a06ac6c8031c30ffc901c29bdbab62e01e40b7a",
+      "size": 246958
+    },
+    {
+      "path": "demos/svet-fit/assets/photos/studio-dumbbells.jpg",
+      "sha256": "626d88bfd01ae5ada09722649f953b8d5aaff6765621ea70fe350f7a4cb7c349",
+      "size": 75484
+    },
+    {
+      "path": "demos/svet-fit/assets/photos/studio-functional.jpg",
+      "sha256": "62379e9a54c2e39de25779afc6c2c36b495dab016230390e5394ef22890fbcad",
+      "size": 93434
+    },
+    {
+      "path": "demos/svet-fit/assets/photos/studio-overview.jpg",
+      "sha256": "af3059e0960958fad6bd0803c2ca08e8dbbc93d5a2087ee21e9286ff675bce7a",
+      "size": 91653
+    },
+    {
+      "path": "demos/svet-fit/assets/photos/studio-smith.jpg",
+      "sha256": "e7017f1035ff32b89558c5f3dcce51a85946f0f1e859857ad0ee9abd0f461ff7",
+      "size": 143188
+    },
+    {
+      "path": "demos/svet-fit/assets/visuals/concept-hero.svg",
+      "sha256": "b3f5fcd2be63429c1cb8946906a2c05a502d5acbad85b971a91e571f107df0ec",
+      "size": 1650
+    },
+    {
+      "path": "demos/svet-fit/assets/visuals/concept-load.svg",
+      "sha256": "971ed608c530b18696040836b53c0be8ec5e7ae98c914bb9b6bc413b85b6ddb2",
+      "size": 708
+    },
+    {
+      "path": "demos/svet-fit/assets/visuals/concept-mobility.svg",
+      "sha256": "aa7442056751d18645dd117808559d9e45c45bff1f765d8d6f017d1d75b11840",
+      "size": 761
+    },
+    {
+      "path": "demos/svet-fit/assets/visuals/concept-nutrition.svg",
+      "sha256": "ddaaee14dc19dfb6f999999178cd518d29e9f9a5c6fcc54271633f8937af1bd4",
+      "size": 1253
+    },
+    {
+      "path": "demos/svet-fit/assets/visuals/concept-strength.svg",
+      "sha256": "d7f2d150ba6e949071bf0d046051dcf161f5b9c402651e6d5dc5f098c5a0e090",
+      "size": 759
+    },
+    {
       "path": "demos/svet-fit/completez-vos-informations.html",
-      "sha256": "5e63975315a62f9933dc693a2394da3a23ba8883aa3f62d75ceab86bf4afe024",
-      "size": 8133
+      "sha256": "580852182c09dfe32b309afa57c1f8ff37eca022dea52fd94f91eac35c62f30d",
+      "size": 8147
     },
     {
       "path": "demos/svet-fit/index.html",
-      "sha256": "a4c81e37db2cccf3e6568025001678939fd72c4b676d5e53f6dda72c5b2608f0",
-      "size": 14791
+      "sha256": "500341bc1bb307984358579a3d575ab48aadb7524cf79302b266a020156ab695",
+      "size": 14806
+    },
+    {
+      "path": "demos/svet-fit/live/app.js",
+      "sha256": "998d365e2f77e8bf977d450f3bcb7b604e0b7af57e0e99b8f3ad2ece93bde4e6",
+      "size": 3642
+    },
+    {
+      "path": "demos/svet-fit/live/completez-vos-informations.html",
+      "sha256": "98e88b64deb2f58b8fc4c4cf5c665851e0977704ca47d9cd0e46d7d4224a4328",
+      "size": 8079
+    },
+    {
+      "path": "demos/svet-fit/live/index.html",
+      "sha256": "7d08f8b05887d28bd28693b6da82e012b07679b92f80ec01debabed0b1934b77",
+      "size": 16482
+    },
+    {
+      "path": "demos/svet-fit/live/mobile-rework.css",
+      "sha256": "600d9bb1a2dff1379d342c63549bc71d12f799293656fa23a128898394b8712f",
+      "size": 743
+    },
+    {
+      "path": "demos/svet-fit/live/styles.css",
+      "sha256": "c93523b3de1ba9009c4bb13b6cd2b68b56c3c81f9a65fe455292b5cba9f29b72",
+      "size": 20482
     },
     {
       "path": "demos/svet-fit/mobile-rework.css",
-      "sha256": "e9d4b07f75c267ffd7e2d0a2fb15c93d6df5dcdac6ab0a8bc6a978cd4d1270b3",
-      "size": 1413
+      "sha256": "6d7867881d94478cb6b8c93b113070eb76472471377a898a2ce3889df5faa10b",
+      "size": 1372
     },
     {
       "path": "demos/svet-fit/styles.css",
@@ -248,8 +328,8 @@
       "size": 1078
     }
   ],
-  "run_id": "agency-archive-selector-release-corrective-20260719-130804",
+  "run_id": "svet-fit-live-preview-20260719-124913",
   "schema_version": 1,
   "tree_algorithm": "lumina-tree-sha256-v1",
-  "tree_hash": "7f38eb893c38a18e2bb54941ab1ec2bca7f5de8553804b02ce1195f63c8d3ffd"
+  "tree_hash": "a3b582785f785095d16fdf39fb84da609288a49b47af6dfe7f4bb1c59ac00d9c"
 }

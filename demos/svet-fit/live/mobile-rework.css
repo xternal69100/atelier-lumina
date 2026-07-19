@@ -1,0 +1,7 @@
+/* Correctifs finaux de robustesse mobile et cibles tactiles. */
+.hero,.hero-copy,.completion-hero,.hero h1,.completion-hero h1{min-inline-size:0}
+.skip-link,.logo,.nav-cta,.button,.soft-link,.text-link,.site-header nav a,.concept-banner a,summary,.choices label,[data-copy-message]{min-block-size:44px}
+.site-header nav a{justify-content:center;min-inline-size:44px}
+summary{inline-size:100%}
+@media(max-width:980px){.hero{grid-template-columns:minmax(0,1fr)}.site-header .nav-cta{display:none}}
+@media(max-width:600px){.hero h1,.completion-hero h1{max-inline-size:100%;font-size:clamp(2.45rem,10.6vw,3.5rem);line-height:.88;letter-spacing:-.055em}.hero .lede,.completion-hero .lede{max-inline-size:100%}body .concept-banner a{display:none}}
