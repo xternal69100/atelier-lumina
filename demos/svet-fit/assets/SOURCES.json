@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "surface": "demos/svet-fit",
+  "generated_at": "2026-07-19T12:37:08Z",
+  "rights_basis": "clients/svet-fit/ASSET-RIGHTS.md",
+  "items": [
+    {
+      "role": "studio-overview",
+      "file": "instagram/assets/studio-overview.jpg",
+      "post_shortcode": "DZp3EBxCKdU",
+      "post_url": "https://www.instagram.com/p/DZp3EBxCKdU/",
+      "sidecar_index": 0,
+      "observed_at": "2026-07-19T11:54:10Z",
+      "source_account": "svetlinafit",
+      "source_asset_url": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/723686310_18589040446050834_8565209645231303614_n.heic?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=104&ig_cache_key=MzkyMDkwMDgzNjI5MDU2MDc5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW...MyJ9&_nc_ohc=-ljIuYCTQ_0Q7kNvwFwFQZF&_nc_oc=Adow04Oy1-FhlTAskbTmzkFg4qJQw4hLy8sSbuQZsyPDaHhP7W6DP85OnWvlWkl5I10&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_gid=6b_O6jFTxwsAozZak1puqQ&_nc_ss=7f689&oh=00_AQB8YnRIdfBuuDPT3I86W2IJFcfg2kvlZGYSof00SGuvlQ&oe=6A628B82",
+      "bytes": 91653,
+      "sha256": "af3059e0960958fad6bd0803c2ca08e8dbbc93d5a2087ee21e9286ff675bce7a",
+      "content_type": "image/jpeg",
+      "rights_basis": "clients/svet-fit/ASSET-RIGHTS.md + rights-clearance.json + directive utilisateur directe 2026-07-19",
+      "restrictions": "Svet Fit uniquement; pas de redistribution autonome",
+      "production_file": "assets/photos/studio-overview.jpg",
+      "decision": "SELECTED",
+      "author_credit": "@dely.photography",
+      "rights_status": "CLEARED",
+      "dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "role": "studio-smith",
+      "file": "instagram/assets/studio-smith.jpg",
+      "post_shortcode": "DZp3EBxCKdU",
+      "post_url": "https://www.instagram.com/p/DZp3EBxCKdU/",
+      "sidecar_index": 1,
+      "observed_at": "2026-07-19T11:54:10Z",
+      "source_account": "svetlinafit",
+      "source_asset_url": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/724714557_18589040455050834_1778778275509627426_n.heic?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=103&ig_cache_key=MzkyMDkwMDg0MzQ3MTEyNTcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW...MyJ9&_nc_ohc=DkjCjYO-_lYQ7kNvwH-XDOy&_nc_oc=Adqru0j3_Cfx8akTYpkdSJmQSXLeigQUNUZLXwEj10gGsgk8lPeYZlWE1kXou3fME9Q&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=6b_O6jFTxwsAozZak1puqQ&_nc_ss=7f689&oh=00_AQA6GvUQT4uHWQxQ4rrW9dyDgon5CqZ_f31Z66t1sPUVLA&oe=6A629101",
+      "bytes": 143188,
+      "sha256": "e7017f1035ff32b89558c5f3dcce51a85946f0f1e859857ad0ee9abd0f461ff7",
+      "content_type": "image/jpeg",
+      "rights_basis": "clients/svet-fit/ASSET-RIGHTS.md + rights-clearance.json + directive utilisateur directe 2026-07-19",
+      "restrictions": "Svet Fit uniquement; pas de redistribution autonome",
+      "production_file": "assets/photos/studio-smith.jpg",
+      "decision": "SELECTED",
+      "author_credit": "@dely.photography",
+      "rights_status": "CLEARED",
+      "dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "role": "studio-dumbbells",
+      "file": "instagram/assets/studio-dumbbells.jpg",
+      "post_shortcode": "DZp3EBxCKdU",
+      "post_url": "https://www.instagram.com/p/DZp3EBxCKdU/",
+      "sidecar_index": 2,
+      "observed_at": "2026-07-19T11:54:10Z",
+      "source_account": "svetlinafit",
+      "source_asset_url": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/722665637_18589040473050834_7353061627707712282_n.heic?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=109&ig_cache_key=MzkyMDkwMDg1MjI5NjAxOTQ2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW...MyJ9&_nc_ohc=3xpBtBrNmbMQ7kNvwExmpNb&_nc_oc=AdqMXfjho2ourIqLJdYqUHcANlvYretVAFRyAi7grYbDrctgIRKsiV_o9htl5pNHuNs&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&_nc_gid=6b_O6jFTxwsAozZak1puqQ&_nc_ss=7f689&oh=00_AQCcM9galxVeQk9SiLw-H6PszkojPrfFd4AteWcyNNeEWw&oe=6A62A126",
+      "bytes": 75484,
+      "sha256": "626d88bfd01ae5ada09722649f953b8d5aaff6765621ea70fe350f7a4cb7c349",
+      "content_type": "image/jpeg",
+      "rights_basis": "clients/svet-fit/ASSET-RIGHTS.md + rights-clearance.json + directive utilisateur directe 2026-07-19",
+      "restrictions": "Svet Fit uniquement; pas de redistribution autonome",
+      "production_file": "assets/photos/studio-dumbbells.jpg",
+      "decision": "SELECTED",
+      "author_credit": "@dely.photography",
+      "rights_status": "CLEARED",
+      "dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "role": "studio-functional",
+      "file": "instagram/assets/studio-functional.jpg",
+      "post_shortcode": "DZp3EBxCKdU",
+      "post_url": "https://www.instagram.com/p/DZp3EBxCKdU/",
+      "sidecar_index": 3,
+      "observed_at": "2026-07-19T11:54:10Z",
+      "source_account": "svetlinafit",
+      "source_asset_url": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/722448316_18589040482050834_4792777404769442006_n.heic?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=111&ig_cache_key=MzkyMDkwMDg2MTQyMjc0MDYwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW...MyJ9&_nc_ohc=57YZBn4es_MQ7kNvwE8cue0&_nc_oc=AdqFcAwbCwfGWQzWeL0x_u3JL5ENrO3Xj6lHWsH57LMH2lTqPei2f0ROoPrA0Qa3LX8&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_gid=6b_O6jFTxwsAozZak1puqQ&_nc_ss=7f689&oh=00_AQCpJKS65J9nipzLw0fShivj8djp_oOcVy_5ZHzOLJZShA&oe=6A629027",
+      "bytes": 93434,
+      "sha256": "62379e9a54c2e39de25779afc6c2c36b495dab016230390e5394ef22890fbcad",
+      "content_type": "image/jpeg",
+      "rights_basis": "clients/svet-fit/ASSET-RIGHTS.md + rights-clearance.json + directive utilisateur directe 2026-07-19",
+      "restrictions": "Svet Fit uniquement; pas de redistribution autonome",
+      "production_file": "assets/photos/studio-functional.jpg",
+      "decision": "SELECTED",
+      "author_credit": "@dely.photography",
+      "rights_status": "CLEARED",
+      "dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "role": "nutrition-evening",
+      "file": "instagram/assets/nutrition-evening.jpg",
+      "post_shortcode": "C__Sqr_u8g6",
+      "post_url": "https://www.instagram.com/p/C__Sqr_u8g6/",
+      "sidecar_index": null,
+      "observed_at": "2026-07-19T11:54:10Z",
+      "source_account": "svetlinafit",
+      "source_asset_url": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/670234057_18110601709645227_4391194159537581082_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=110&ig_cache_key=MzQ1ODU2NTEzNzEzOTIyMjU4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW...MyJ9&_nc_ohc=jV6Xhur_qT8Q7kNvwGw_M6L&_nc_oc=Adp2429nHKpBUIgxyuZh-0R97t0y0WBE3oZZkq4elcsqxgAueNvBlQwqj4rx4WCJY0M&_nc_zt=23&se=-1&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_gid=6b_O6jFTxwsAozZak1puqQ&_nc_ss=7f689&oh=00_AQADggTMBzZtBjkSQEDey_cF4Ax5mLKQgBXdNh5oL9Ny7w&oe=6A627EDC",
+      "bytes": 246958,
+      "sha256": "0a131f8d589a67dcadc22fa97a06ac6c8031c30ffc901c29bdbab62e01e40b7a",
+      "content_type": "image/jpeg",
+      "rights_basis": "clients/svet-fit/ASSET-RIGHTS.md + rights-clearance.json + directive utilisateur directe 2026-07-19",
+      "restrictions": "Svet Fit uniquement; pas de redistribution autonome",
+      "production_file": "assets/photos/nutrition-evening.jpg",
+      "decision": "SELECTED",
+      "author_credit": "source account @svetlinafit; user confirms all required permissions",
+      "rights_status": "CLEARED",
+      "dimensions": [
+        1080,
+        1282
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "post_url": "https://www.instagram.com/p/Da7yAeYMM9D/",
+      "reason": "reel collaboratif photographie, contexte non suffisamment sûr pour rôle coaching"
+    },
+    {
+      "post_url": "https://www.instagram.com/p/C-SUHF2o9it/",
+      "reason": "avant/après d’un tiers et données corporelles sensibles"
+    },
+    {
+      "role": "lifestyle-pool",
+      "reason": "exclue du build pour ne pas recentrer l’idéal corporel"
+    }
+  ],
+  "rights_status": "cleared_for_selected_objects",
+  "rights_evidence": "clients/svet-fit/runs/svet-fit-redesign-20260719-115410/rights-clearance.json",
+  "author_permission": {
+    "credited_author": "@dely.photography",
+    "status": "confirmed_by_user",
+    "scope": "Svet Fit site only"
+  }
+}

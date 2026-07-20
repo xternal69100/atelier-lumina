@@ -2,3 +2,30 @@ User-agent: *
 Allow: /
 Disallow: /demos/
 Disallow: /archive/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /demos/
+Disallow: /archive/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /demos/
+Disallow: /archive/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /demos/
+Disallow: /archive/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /demos/
+Disallow: /archive/
+
+User-agent: CCBot
+Allow: /
+Disallow: /demos/
+Disallow: /archive/
+
+Sitemap: https://xternal69100.github.io/atelier-lumina/sitemap.xml

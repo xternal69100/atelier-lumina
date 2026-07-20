@@ -19,8 +19,6 @@
       image.height = Number(button.dataset.height);
       image.alt = button.dataset.alt;
       stage.href = source;
-      stage.classList.toggle('is-met-blue', button.dataset.treatment === 'met-blue');
-      stage.dataset.fit = button.dataset.fit || '';
       stage.setAttribute('aria-label', `Ouvrir en grand ${god}, ${button.textContent.trim()}`);
       label.textContent = versionLabel;
       if (announce) status.textContent = `${god} — ${button.textContent.trim()} sélectionnée.`;

@@ -25,9 +25,16 @@
     max-inline-size: 100%;
   }
 
-  /* Le lien de bannière reste volontairement masqué sur mobile. */
-  .concept-banner a {
+  .concept-banner {
+    justify-content: center;
+  }
+
+  .concept-banner > span {
     display: none;
+  }
+
+  .concept-banner a {
+    display: inline-flex;
   }
 }
 
@@ -67,9 +74,8 @@ summary,
     margin-top: 1rem;
   }
 
-  /* Surcharge finale : la règle générique de cible 44 px est déclarée plus haut. */
   body .concept-banner a {
-    display: none;
+    display: inline-flex;
   }
 }
 
